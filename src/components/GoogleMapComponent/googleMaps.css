@@ -1,0 +1,7 @@
+.google-maps {
+  position: relative;
+  min-height: 40vh;
+  -webkit-clip-path: polygon(0 11vh, 100% 6vh, 100% 100%, 0% 100%);
+  clip-path: polygon(0 11vh, 100% 6vh, 100% 100%, 0% 100%);
+  filter: brightness(0.6);
+}
