@@ -1,0 +1,22 @@
+.background-image {
+    height: 45vh;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../../images/webP/background-image.webp");
+  background-size: cover;
+  background-position: 50%, 70%;
+  position: relative;
+  -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+}
+
+@media only screen and (min-width: 1024px){
+  .background-image {
+    height: 65vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+  }
+}

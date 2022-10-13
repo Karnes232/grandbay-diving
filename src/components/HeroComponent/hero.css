@@ -5,10 +5,18 @@
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
-    url("../../images/background.jpg");
+    url("../../images/webP/hero.webp");
   background-size: cover;
   background-position: 40%, 50%;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+}
+
+@media only screen and (min-width: 1024px){
+  .hero {
+    height: 80vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
 }

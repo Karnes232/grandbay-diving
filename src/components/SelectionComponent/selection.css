@@ -2,10 +2,10 @@
   height: 95vh;
   background-image: linear-gradient(
       to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/kris-mikael-krister-aGihPIbrtVE-unsplash.jpg");
+    url("../../images/webP/selection-bg.webp");
   background-size: cover;
   background-position: 50%, 70%;
   position: relative;
@@ -13,8 +13,21 @@
   clip-path: polygon(0 5vh, 100% 0, 100% 90vh, 0% 100%);
 }
 
-.section-link-photo {
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-  object-fit: cover;
+@media only screen and (min-width: 768px){
+  .selection{
+    height: 50vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
+  }
+  .selection-links {
+    flex: 1 1 0px
+  }
 }
+@media only screen and (min-width: 1024px){
+  .selection{
+    height: 75vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 70vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 70vh, 0% 100%);
+  }
+}
+

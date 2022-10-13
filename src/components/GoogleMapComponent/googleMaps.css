@@ -1,7 +1,20 @@
 .google-maps {
   position: relative;
-  min-height: 40vh;
   -webkit-clip-path: polygon(0 11vh, 100% 6vh, 100% 100%, 0% 100%);
   clip-path: polygon(0 11vh, 100% 6vh, 100% 100%, 0% 100%);
-  filter: brightness(0.6);
+  filter: brightness(0.8);
+}
+
+@media only screen and (min-width: 768px){
+  .google-maps {
+    -webkit-clip-path: polygon(0 13vh, 100% 8vh, 100% 100%, 0% 100%);
+    clip-path: polygon(0 13vh, 100% 8vh, 100% 100%, 0% 100%);
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .google-maps {
+    -webkit-clip-path: polygon(0 22vh, 100% 17vh, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22vh, 100% 17vh, 100% 100%, 0% 100%);
+  }
 }
