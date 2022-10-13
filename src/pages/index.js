@@ -38,7 +38,7 @@ const IndexPage = () => {
           className="lg:mt-56"
         />
         <BackgroundVideo />
-        <div className=""><TextComponent
+        <div className="lg:h-[20rem] lg:flex lg:items-center lg:justify-center"><TextComponent
         title="About Us"
         paragraph="Grand Bay of the Sea is a local family ran dive company located in the Punta Cana area. With more than 15 years of experience throughout the Dominican Republic, we guarantee satisfaction and excellent treatment from our qualified staff. We specialize in providing a more personalized service to our clients with our professional team"
         className=""
