@@ -1,5 +1,6 @@
 import React from "react"
 import video from "../../video/coral.webm"
+import video2 from '../../video/coral-cut.mp4'
 
 const BackroundVideo = () => {
   return (
@@ -13,7 +14,7 @@ const BackroundVideo = () => {
           playsInline
           src={video}
         >
-          <source src={video} type="video/webm" />
+          <source src={video2} type="video/mp4" />
           Your device does not support playing 'video/mp4' videos
         </video>
       </div>
