@@ -13,21 +13,20 @@
   clip-path: polygon(0 5vh, 100% 0, 100% 90vh, 0% 100%);
 }
 
-@media only screen and (min-width: 768px){
-  .selection{
+@media only screen and (min-width: 768px) {
+  .selection {
     height: 50vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
-  clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
   }
   .selection-links {
-    flex: 1 1 0px
+    flex: 1 1 0px;
   }
 }
-@media only screen and (min-width: 1024px){
-  .selection{
+@media only screen and (min-width: 1024px) {
+  .selection {
     height: 75vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 70vh, 0% 100%);
-  clip-path: polygon(0 5vh, 100% 0, 100% 70vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 70vh, 0% 100%);
   }
 }
-

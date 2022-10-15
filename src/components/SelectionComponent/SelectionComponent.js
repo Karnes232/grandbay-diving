@@ -2,10 +2,8 @@ import React from "react"
 import LinksComponent from "./LinksComponent"
 
 import image1 from "../../images/webP/index-selection-1.webp"
-import image2 from '../../images/webP/index-selection-2.webp'
-import image3 from '../../images/webP/index-selection-3.webp'
-
-
+import image2 from "../../images/webP/index-selection-2.webp"
+import image3 from "../../images/webP/index-selection-3.webp"
 
 const SelectionComponent = () => {
   return (

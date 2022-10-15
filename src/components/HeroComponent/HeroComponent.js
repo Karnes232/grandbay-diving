@@ -1,12 +1,10 @@
 import React from "react"
 // import { StaticImage } from "gatsby-plugin-image"
 
-const HeroComponent = () => {
+const HeroComponent = ({ page }) => {
   return (
     <div className="absolute top-0 w-full h-[55vh] lg:h-[80vh]">
-      <div className="hero"></div>
-
-      
+      <div className={`hero ${page}`}></div>
     </div>
   )
 }

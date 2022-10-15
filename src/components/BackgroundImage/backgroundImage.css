@@ -1,6 +1,6 @@
 .background-image {
-    height: 45vh;
-    background-image: linear-gradient(
+  height: 45vh;
+  background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
@@ -13,7 +13,7 @@
   clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .background-image {
     height: 65vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);

@@ -1,7 +1,6 @@
 import React from "react"
-import video from '../../video/coral-cut.mp4'
 
-const BackroundVideo = () => {
+const BackroundVideo = ({ video }) => {
   return (
     <div className="bg-video-section">
       <div className="bg-video">
@@ -17,7 +16,6 @@ const BackroundVideo = () => {
           Your device does not support playing 'video/mp4' videos
         </video>
       </div>
-      
     </div>
   )
 }

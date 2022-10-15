@@ -1,12 +1,10 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from "react"
+import Layout from "../components/layout"
 
 const trips = () => {
   return (
     <Layout>
-        <main>
-            Trips
-        </main>
+      <main>Trips</main>
     </Layout>
   )
 }
