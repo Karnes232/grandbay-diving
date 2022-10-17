@@ -14,6 +14,9 @@ const CourseOverview = ({ course }) => {
         </p>
         <p className="my-1 text-sm">Duration: {course.overview.duration}</p>
         <p className="my-1 text-sm">Includes: Transport</p>
+        {course.overview.extra && (
+          <p className="my-1 text-sm">{course.overview.extra}</p>
+        )}
       </div>
       <div className="flex flex-col justify-center items-center">
         <p className="mb-1 mt-2">

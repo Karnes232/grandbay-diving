@@ -12,12 +12,22 @@ const Course = ({ location }) => {
   return (
     <Layout>
       <BackgroundVideo video={video} className="bg-video-courses" />
-      {course && <>
-      <TextComponent title={course.title} paragraph={course.paragraph} />
-      <CourseOverview course={course} />
-      <TextComponent title={course.title2} paragraph={course.paragraph2} />
-      </>
-      }
+      {course && (
+        <div className="my-5">
+          <TextComponent title={course.title} paragraph={course.paragraph} />
+          <CourseOverview course={course} />
+          <TextComponent title={course.title2} paragraph={course.paragraph2} />
+          {course.details && (
+            <div className="flex flex-col justify-center items-center mt-5">
+            <hr class="border-2 border-blue-500 w-52"  />
+            <TextComponent paragraph={course.details} />
+            <TextComponent paragraph={course.details2} />
+            <TextComponent paragraph={course.details3} />
+            <TextComponent paragraph={course.details4} />
+            </div>
+          )}
+        </div>
+      )}
     </Layout>
   )
 }

@@ -11,7 +11,7 @@
 .bg-video-courses {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
-  margin-top: -18.2rem;
+  margin-top: -5rem;
 }
 
 .bg-video {
