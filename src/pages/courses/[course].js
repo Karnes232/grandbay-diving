@@ -12,9 +12,12 @@ const Course = ({ location }) => {
   return (
     <Layout>
       <BackgroundVideo video={video} className="bg-video-courses" />
+      {course && <>
       <TextComponent title={course.title} paragraph={course.paragraph} />
       <CourseOverview course={course} />
       <TextComponent title={course.title2} paragraph={course.paragraph2} />
+      </>
+      }
     </Layout>
   )
 }
