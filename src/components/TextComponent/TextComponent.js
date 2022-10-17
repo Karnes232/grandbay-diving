@@ -21,7 +21,10 @@ const IntroductionComponent = ({ title, paragraph, className }) => {
         <h4 className={`text-2xl font-semibold mb-5 ${className} md:text-4xl`}>
           {title}
         </h4>
-        <p className="md:text-xl lg:mt-5" dangerouslySetInnerHTML={{__html: paragraph}}></p>
+        <p
+          className="md:text-xl lg:mt-5"
+          dangerouslySetInnerHTML={{ __html: paragraph }}
+        ></p>
       </div>
     </div>
   )

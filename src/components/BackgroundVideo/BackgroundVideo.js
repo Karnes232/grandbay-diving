@@ -1,8 +1,8 @@
 import React from "react"
 
-const BackroundVideo = ({ video }) => {
+const BackroundVideo = ({ video, className }) => {
   return (
-    <div className="bg-video-section">
+    <div className={`bg-video-section ${className}`}>
       <div className="bg-video">
         <video
           className="bg-video__content"

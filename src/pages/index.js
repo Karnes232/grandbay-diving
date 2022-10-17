@@ -52,7 +52,7 @@ const IndexPage = () => {
           paragraph="Punta Cana is the underwater jewel of the Dominican Republic. The white beaches, lush vegetation and turquoise sea hide exciting adventures and beautiful seascapes. Look for Dive Center near Me or Scuba School near me in your search engine to find our webpage and contact information. When you are diving with us, we take you to the best dive sites of the region, a paradise for shark lovers, wreck enthusiasts, turtles and rays galore! The healthy reefs around this side of the islands are thriving with marvelous creatures and colorful corals. Shallow reefs here receive sunlight all year round and have the perfect conditions for hard corals to grow beautiful and vigorous: we can see brain corals, labyrinth corals, whip corals, fan corals, acroporas, porites, millepora and pillar corals."
           className="lg:mt-56"
         />
-        <BackgroundVideo video={video} />
+        <BackgroundVideo video={video} className="bg-video-main" />
         <div className="lg:h-[20rem] lg:flex lg:items-center lg:justify-center">
           <TextComponent
             title="About Us"

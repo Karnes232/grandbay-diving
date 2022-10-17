@@ -1,13 +1,13 @@
 import React from "react"
 import Helment from "react-helmet"
-import HeroComponent from "../components/HeroComponent/HeroComponent"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import TextComponent from "../components/TextComponent/TextComponent"
-import BackgroundVideo from "../components/BackgroundVideo/BackgroundVideo"
+import HeroComponent from "../../components/HeroComponent/HeroComponent"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import TextComponent from "../../components/TextComponent/TextComponent"
+import BackgroundVideo from "../../components/BackgroundVideo/BackgroundVideo"
 
-import video from "../video/Scuba Diving - 699.mp4"
-import CourseCardGroup from "../components/CourseCardComponents/CourseCardGroup"
+import video from "../../video/Scuba Diving - 699.mp4"
+import CourseCardGroup from "../../components/CourseCardComponents/CourseCardGroup"
 
 const courses = () => {
   return (
@@ -28,7 +28,7 @@ const courses = () => {
         title="Learn how to dive at Grand Bay of the Sea in Punta Cana"
         paragraph="You are not a certified diver yet? You have never tried diving and want to see what the hype about it all is? You’re in the right place. Our dive company in Punta Cana offers the best Scuba Classes in Punta Cana, with PADI, the world’s # 1 dive certifying agency. As you might know, in Punta Cana Scuba Diving is really at its best, and while you are here you don’t want to miss the chance to visit the best Diving Training Center in Punta Cana and get your diving experience or diving course. The first step for non-certified divers here is the Padi Discover Scuba Diving: a quick program that works as an introduction to the underwater world but does not give you a certification. It is more of a dive experience, getting to know this new world. You will have a theory session, and one dive in open water to a maximum depth of 40 feet, in a small group so that your dive instructor can take great care of you. You will be able to take the time to get familiar and comfortable in the water with our experienced instructors before proceeding with your Padi Scuba Diving Punta Cana."
       />
-      <BackgroundVideo video={video} />
+      <BackgroundVideo video={video} className="bg-video-main" />
       <TextComponent
         title="Entry Level Dive certifications"
         paragraph="After your Discover Scuba Diving, you might decide to get your Padi course in Punta Cana, as we expect you will be hooked on it! Whether you have done the Discover Scuba Diving class or not, as it is not a mandatory prerequisite, you can choose between two different entry level certifications for your Punta Cana Scuba Classes. The first one is the PADI Scuba Diver course, a two days course that includes three theory modules, three pool sessions and two dives in open water to a maximum depth of 40 feet, and gives you a lifetime certification upon its completion. If you want to have a full beginner level Scuba certification Punta Cana, the PADI Open Water is the most complete course: five theory sessions, five confined water sessions, and four dives, awarding you with a certification that takes you to the maximum depth of 60 feet. In both cases, you will learn important notions and underwater skills that will allow you to use the dive equipment without harm, as well as have the best, safest and most fun experience during your underwater scuba dives. Knowledge reviews and quizzes will be part of the courses, testing your abilities and helping you focus on the most important tasks, and the time spent in confined water with your knowledgeable instructors will allow you to learn at your own pace all the necessary exercises for a wonderful dive experience."

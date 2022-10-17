@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 const SingleCourseCard = ({ title, description, image, link }) => {
   return (
     <Link to={link} className="no-underline">
-      <div className="max-w-xs my-4 rounded overflow-hidden shadow-lg">
+      <div className="max-w-xs w-80 my-4 rounded overflow-hidden shadow-lg">
         <img className="w-full" src={image} alt={title} />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 h-28">
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-700 text-base">{description}</p>
         </div>
