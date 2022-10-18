@@ -17,7 +17,7 @@ const IntroductionComponent = ({ title, paragraph, className }) => {
           <strong>diving dominican republic</strong>
         </h4>
       </div>
-      <div className="flex flex-col items-center justify-center text-center max-w-6xl mx-5 md:p-6 xl:mx-auto">
+      <div className="flex flex-col items-center justify-center text-center max-w-6xl mx-5 md:p-6 lg:p-2 xl:mx-auto">
         <h4 className={`text-2xl font-semibold mb-5 ${className} md:text-4xl`}>
           {title}
         </h4>

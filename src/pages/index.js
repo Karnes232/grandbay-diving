@@ -38,7 +38,7 @@ const IndexPage = () => {
           diver in Punta Cana can feel at home, whether they are experienced
           divers or novices, or even non divers (yet!). We offer a wide range of
           dive trip packages in Punta Cana, including Bayahibe, Saona Island,
-          and Catalina Island, as well as dive courses and certification
+          and Catalina Island, as well as <a href='/courses'>dive courses</a> and certification
           packages. You can discover this Caribbean paradise with our
           experienced guides and our friendly staff, and join the multitude of
           divers and snorkelers that literally fell in love with the

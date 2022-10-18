@@ -5,17 +5,17 @@ const CourseOverview = ({ course }) => {
     <div className="my-5">
       {" "}
       <div className="flex flex-col justify-center items-center mb-2">
-        <h4 className="text-xl font-semibold mb-1">
+        <h4 className="text-xl font-semibold mb-1 xl:text-3xl">
           <strong>Course Overview</strong>
         </h4>
-        <p className="my-1 text-sm">Course Level: {course.overview.level}</p>
-        <p className="my-1 text-sm">
+        <p className="my-1 text-sm xl:text-lg">Course Level: {course.overview.level}</p>
+        <p className="my-1 text-sm xl:text-lg">
           Price: ${course.overview.price} per person
         </p>
-        <p className="my-1 text-sm">Duration: {course.overview.duration}</p>
-        <p className="my-1 text-sm">Includes: Transport</p>
+        <p className="my-1 text-sm xl:text-lg">Duration: {course.overview.duration}</p>
+        <p className="my-1 text-sm xl:text-lg">Includes: Transport</p>
         {course.overview.extra && (
-          <p className="my-1 text-sm">{course.overview.extra}</p>
+          <p className="my-1 text-sm xl:text-lg">{course.overview.extra}</p>
         )}
       </div>
       <div className="flex flex-col justify-center items-center">

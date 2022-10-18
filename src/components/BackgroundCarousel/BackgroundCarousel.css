@@ -1,0 +1,36 @@
+.course-carousel {
+  height: 35vh;
+  position: relative;
+  -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 30vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 30vh, 0% 100%);
+}
+
+.carousel-image {
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-carousel {
+    height: 45vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .course-carousel {
+    height: 55vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
+  }
+  
+}
+
+@media only screen and (min-width: 1280px) {
+  .course-carousel {
+    height: 65vh;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+  }
+  
+}

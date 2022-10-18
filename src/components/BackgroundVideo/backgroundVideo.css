@@ -38,6 +38,11 @@
   object-fit: cover;
   object-position: center;
 }
+@media only screen and (min-width: 768px) {
+  .bg-video-courses {
+    margin-top: -10rem;
+  }
+}
 
 @media only screen and (min-width: 1024px) {
   .bg-video-section {
