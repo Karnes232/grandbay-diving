@@ -37,15 +37,15 @@ const Course = ({ location }) => {
               {/* <hr class="border-2 border-blue-500 w-52"  /> */}
               <BackgroundCarousel course={course} />
               <div className="flex flex-col max-w-6xl">
-              <div className="lg:flex xl:space-x-4">
-              <TextComponent paragraph={course.details} />
-              <TextComponent paragraph={course.details2} />
-              </div>
-              <hr class="mt-5 border-2 border-blue-500 w-52 mx-auto"  />
-              <div className="lg:flex xl:space-x-4 flex-grow">
-              <TextComponent paragraph={course.details3} />
-              <TextComponent paragraph={course.details4} />
-              </div>
+                <div className="lg:flex xl:space-x-4">
+                  <TextComponent paragraph={course.details} />
+                  <TextComponent paragraph={course.details2} />
+                </div>
+                <hr className="mt-5 border-2 border-blue-500 w-52 mx-auto" />
+                <div className="lg:flex xl:space-x-4 flex-grow">
+                  <TextComponent paragraph={course.details3} />
+                  <TextComponent paragraph={course.details4} />
+                </div>
               </div>
             </div>
           )}
