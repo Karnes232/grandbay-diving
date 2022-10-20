@@ -15,18 +15,21 @@ const SelectionComponent = () => {
             url="/courses"
             description="Try diving for the first time, get certified, or upgrade your certification"
             image={image1}
+            textColor='text-white'
           />
           <LinksComponent
             name="Dive Packages"
             url="/sites"
             description="Dive for a day or more, and save on multiple dive packages"
             image={image3}
+            textColor='text-white'
           />
           <LinksComponent
             name="Day Trips"
             url="/trips"
             description="Enjoy a day on the caribbean coast of the island, with its white sand and turquoise waters"
             image={image2}
+            textColor='text-white'
           />
         </div>
       </div>

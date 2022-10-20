@@ -2,14 +2,14 @@ import React from "react"
 
 import { Link } from "gatsby"
 
-const LinksComponent = ({ name, url, description, image }) => {
+const LinksComponent = ({ name, url, description, image, textColor }) => {
   return (
     <Link
       to={url}
       className="no-underline flex flex-col justify-between items-center cursor-pointer text-center selection-links md:h-52 md:justify-start md:-mt-8"
     >
       <div className="flex flex-col justify-center items-center">
-        <h2 className="text-lg text-white font-semibold md:text-2xl">{name}</h2>
+        <h2 className={`text-lg ${textColor} font-semibold md:text-2xl`}>{name}</h2>
         <img
           src={image}
           alt=""
@@ -17,7 +17,7 @@ const LinksComponent = ({ name, url, description, image }) => {
         />
       </div>
 
-      <p className="text-sm text-white mx-16 md:mx-2 md:text-lg">
+      <p className={`text-sm ${textColor} mx-16 md:mx-2 md:text-lg`}>
         {description}
       </p>
     </Link>
