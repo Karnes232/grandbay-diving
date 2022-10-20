@@ -5,7 +5,7 @@ import {
 } from "@paypal/react-paypal-js"
 
 const PayPalButtonWrapper = ({ currency, showSpinner, amount }) => {
-  const style = { layout: "vertical" }
+  const style = { layout: "vertical", shape: 'pill' }
 
   const [{ options, isPending }, dispatch] = usePayPalScriptReducer()
 
@@ -38,6 +38,9 @@ const PayPalButtonWrapper = ({ currency, showSpinner, amount }) => {
                   },
                 },
               ],
+              application_context: {
+                      shipping_preference: "NO_SHIPPING"
+                  }
             })
             .then(orderId => {
               // Your code here after create the order
