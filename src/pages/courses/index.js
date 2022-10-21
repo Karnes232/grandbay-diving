@@ -19,7 +19,7 @@ const courses = () => {
         />
       </Helment>
       <SEO
-        title="Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana"
+        title="Padi Course In Punta Cana | Scuba Classes | Scuba Diving in Punta Cana | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana"
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana. "
       />
       <HeroComponent page="courses" />

@@ -9,7 +9,9 @@ const LinksComponent = ({ name, url, description, image, textColor }) => {
       className="no-underline flex flex-col justify-between items-center cursor-pointer text-center selection-links md:h-52 md:justify-start md:-mt-8"
     >
       <div className="flex flex-col justify-center items-center">
-        <h2 className={`text-lg ${textColor} font-semibold md:text-2xl`}>{name}</h2>
+        <h2 className={`text-lg ${textColor} font-semibold md:text-2xl`}>
+          {name}
+        </h2>
         <img
           src={image}
           alt=""

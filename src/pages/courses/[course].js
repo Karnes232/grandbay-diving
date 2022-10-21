@@ -1,4 +1,5 @@
 import React from "react"
+import Helment from "react-helmet"
 import Layout from "../../components/layout"
 import BackgroundVideo from "../../components/BackgroundVideo/BackgroundVideo"
 import TextComponent from "../../components/TextComponent/TextComponent"
@@ -7,11 +8,22 @@ import video from "../../video/Scuba Diving - 699.mp4"
 import { courses } from "../../data/courses"
 import CourseOverview from "../../components/CourseOverview/CourseOverview"
 import BackgroundCarousel from "../../components/BackgroundCarousel/BackgroundCarousel"
+import SEO from "../../components/seo"
 
 const Course = ({ location }) => {
   const course = courses.find(({ link }) => link === location.pathname)
   return (
     <Layout>
+      <Helment>
+        <link
+          rel="canonical"
+          href={`https://www.grandbay-puntacana.com${location.pathname}`}
+        />
+      </Helment>
+      <SEO
+        title={`${course.course} | Padi Course In Punta Cana | Scuba Diving in Punta Cana`}
+        description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
+      />
       <BackgroundVideo video={video} className="bg-video-courses" />
       {course && (
         <div className="mb-5">

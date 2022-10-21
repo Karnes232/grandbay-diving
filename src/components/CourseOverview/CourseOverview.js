@@ -9,18 +9,22 @@ const CourseOverview = ({ course }) => {
         <h4 className="text-xl font-semibold mb-1 xl:text-3xl">
           <strong>Course Overview</strong>
         </h4>
-        <p className="my-1 text-sm xl:text-lg">
+        <p className="my-1 text-sm md:text-base xl:text-lg">
           Course Level: {course.overview.level}
         </p>
-        <p className="my-1 text-sm xl:text-lg">
+        <p className="my-1 text-sm md:text-base xl:text-lg">
           Price: ${course.overview.price} per person
         </p>
-        <p className="my-1 text-sm xl:text-lg">
+        <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: {course.overview.duration}
         </p>
-        <p className="my-1 text-sm xl:text-lg">Includes: Transport</p>
+        <p className="my-1 text-sm md:text-base xl:text-lg">
+          Includes: Transport
+        </p>
         {course.overview.extra && (
-          <p className="my-1 text-sm xl:text-lg">{course.overview.extra}</p>
+          <p className="my-1 text-sm md:text-base xl:text-lg">
+            {course.overview.extra}
+          </p>
         )}
       </div>
       <div className="flex flex-col justify-center items-center mb-4">
