@@ -21,7 +21,11 @@ const Course = ({ location }) => {
         />
       </Helment>
       <SEO
-        title={course ? `${course.course} | Padi Course In Punta Cana | Scuba Diving in Punta Cana` : `Padi Course In Punta Cana | Scuba Diving in Punta Cana`}
+        title={
+          course
+            ? `${course.course} | Padi Course In Punta Cana | Scuba Diving in Punta Cana`
+            : `Padi Course In Punta Cana | Scuba Diving in Punta Cana`
+        }
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
       />
       <BackgroundVideo video={video} className="bg-video-courses" />
@@ -34,7 +38,7 @@ const Course = ({ location }) => {
                 paragraph={course.paragraph}
               />
             </div>
-            <div className="lg:w-[45rem] xl:mx-10 lg:min-h-full lg:flex lg:flex-col lg:justify-center">
+            <div className="lg:w-[45rem] xl:mx-10 lg:min-h-full lg:flex lg:flex-col md:justify-center">
               <CourseOverview course={course} />
             </div>
             <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">

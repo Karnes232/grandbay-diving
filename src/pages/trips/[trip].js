@@ -7,6 +7,7 @@ import TextComponent from "../../components/TextComponent/TextComponent"
 import video from "../../video/Scuba Diving - 699.mp4"
 
 import { trips } from "../../data/trips"
+import TripOveriew from "../../components/TripOverview/TripOveriew"
 
 const Trip = ({ location }) => {
   const trip = trips.find(({ link }) => link === location.pathname)
@@ -20,31 +21,37 @@ const Trip = ({ location }) => {
         />
       </Helment>
       <SEO
-        title="Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana"
+        title={
+          trip
+            ? `${trip.name} | Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana`
+            : `Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana`
+        }
         description="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today."
       />
       <BackgroundVideo video={video} className="bg-video-courses" />
       {trip && (
-        <div className="mb-5">
-        <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
-        <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
-        <TextComponent
-                title={trip.title}
-                paragraph={trip.paragraph}
-              />
-              <TextComponent
-
-                paragraph={trip.paragraph2}
-              />
-              <TextComponent
-
-                paragraph={trip.paragraph3}
-              />
-        </div>
-        </div>
-
-        </div>
-        )}
+        <>
+          
+          <div className="mb-5">
+            <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
+              <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
+                <TextComponent title={trip.title} paragraph={trip.paragraph} />
+                </div>
+            </div>
+            <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
+            <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
+                <TextComponent paragraph={trip.paragraph2} />
+                </div>
+                <div className="lg:w-[45rem] xl:mx-10 lg:min-h-full lg:flex lg:flex-col lg:justify-center">
+            <TripOveriew trip={trip} />
+          </div>
+                <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
+                <TextComponent paragraph={trip.paragraph3} />
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </Layout>
   )
 }

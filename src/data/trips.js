@@ -34,8 +34,7 @@ export const trips = [
       extra2: "Drinks : Alcoholic optional",
     },
     title: "Bayahibe",
-    paragraph:
-      "",
+    paragraph: "",
     paragraph2:
       "Located just a half-mile off the coast of Dominicus in Bayahíbe, the 73-meter (240 feet) long St. George ship was originally built in 1962 in Scotland, and was used to transport wheat and barley from Europe to the Caribbean. Today, the sunken ship is home to barracudas, moray eels, king mackerels, and groupers, among other species. Due to its depth of 40 meters (131 feet), it is recommended only for advanced divers.",
     paragraph3:
@@ -68,5 +67,5 @@ export const trips = [
       "https://i.ibb.co/3vsmJ6X/image12.jpg",
       "https://i.ibb.co/cX4jwpp/image25.jpg",
     ],
-  }
+  },
 ]

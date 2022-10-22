@@ -17,7 +17,7 @@ const CustomPayPal = ({ price }) => {
         <PayPalButtonWrapper
           currency={currency}
           showSpinner={false}
-          amount={price / 2}
+          amount={price}
         />
       </PayPalScriptProvider>
     </div>

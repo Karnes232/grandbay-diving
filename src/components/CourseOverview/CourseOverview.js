@@ -33,7 +33,7 @@ const CourseOverview = ({ course }) => {
         </p>
         <p className="mt-1">Only a 50% deposit</p>
       </div>
-      <CustomPayPal price={course.overview.price} />
+      <CustomPayPal price={course.overview.price / 2} />
     </div>
   )
 }
