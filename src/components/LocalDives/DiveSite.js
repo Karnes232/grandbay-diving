@@ -5,7 +5,7 @@ const DiveSite = ({ id, name, img, depth, desc }) => {
   return (
     <motion.div 
     initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, x: [50, 150, 0], y: [25, 150, 0] }}
+        whileInView={{ opacity: 1, x: [50, 150, 0], y: [25, 50, 0] }}
         viewport={{ once: true }}
         transition={{
           duration: 3,
@@ -16,14 +16,14 @@ const DiveSite = ({ id, name, img, depth, desc }) => {
     >
       <div className="rounded-lg shadow-lg bg-white max-w-sm">
         <img
-          className="rounded-t-lg h-64 w-full object-cover object-center"
+          className="rounded-t-lg h-64 w-80 object-cover object-center"
           src={img}
           alt={name}
         />
         <div className="p-6">
           <h5 className="text-gray-900 text-xl font-medium mb-2">{name}</h5>
-          <p className="text-lg text-gray-700 mb-2">{depth}</p>
-          <p className="text-gray-700 text-base mb-4">
+          {depth && (<p className="text-lg text-gray-700 mb-2">{depth}</p>)}
+          {desc && (<p className="text-gray-700 text-base mb-4">
             {readMore ? desc : `${desc.substring(0, 150)}...`}
             <br />
             <button
@@ -32,7 +32,7 @@ const DiveSite = ({ id, name, img, depth, desc }) => {
             >
               {readMore ? "show less" : "read more"}
             </button>
-          </p>
+          </p>)}
         </div>
       </div>
     </motion.div>
