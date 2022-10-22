@@ -30,7 +30,7 @@ const index = () => {
         <LocalDivesOverview />
         </div>
       </div>
-      <div className="max-w-6xl my-5 xl:my-14 flex flex-col justify-center items-center sm:flex-row mx-5 lg:mx-auto">
+      <div className="max-w-6xl my-5 xl:my-14 flex flex-col flex-wrap justify-center items-center sm:flex-row mx-5 lg:mx-auto">
         {divesites.map((divesite)=>{
                         return <DiveSite key={divesite.id} {...divesite} />      
                     })}
