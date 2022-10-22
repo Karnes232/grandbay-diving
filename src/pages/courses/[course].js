@@ -23,7 +23,7 @@ const Course = ({ location }) => {
       <SEO
         title={
           course
-            ? `${course.course} | Padi Course In Punta Cana | Scuba Diving in Punta Cana`
+            ? `${course.name} | Padi Course In Punta Cana | Scuba Diving in Punta Cana`
             : `Padi Course In Punta Cana | Scuba Diving in Punta Cana`
         }
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."

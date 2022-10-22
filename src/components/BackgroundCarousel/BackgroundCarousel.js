@@ -11,7 +11,7 @@ const BackgroundCarousel = ({ course, className }) => {
             <img
               className="lg:h-[55vh] xl:h-[65vh] carousel-image"
               src={image}
-              alt={course.course}
+              alt={course.name}
             />
           </div>
         ))}

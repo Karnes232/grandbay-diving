@@ -2,7 +2,7 @@ export const courses = [
   {
     id: 1,
     link: "/courses/discover",
-    course: "Discover Scuba Diving",
+    name: "Discover Scuba Diving",
     title: "Try Discover Scuba Diving",
     title2: "Experience the underwater world!",
     paragraph:
@@ -23,7 +23,7 @@ export const courses = [
   {
     id: 2,
     link: "/courses/scubadiver",
-    course: "PADI Scuba Diver",
+    name: "PADI Scuba Diver",
     title: "Padi Scuba Diver Course",
     title2:
       "What can you expect from this beginner’s Scuba Diving course in the Dominican?",
@@ -54,7 +54,7 @@ export const courses = [
   {
     id: 3,
     link: "/courses/openwater",
-    course: "Open Water Diver",
+    name: "Open Water Diver",
     title: "Padi Open Water Course",
     title2:
       "What can you expect from this beginner’s Scuba Diving course in the Dominican?",
@@ -85,7 +85,7 @@ export const courses = [
   {
     id: 4,
     link: "/courses/advanced",
-    course: "Advanced Open Water Diver",
+    name: "Advanced Open Water Diver",
     title: "PADI Advanced Open Water Course",
     title2:
       "What can you expect from this PADI Advanced Open Water course in the Dominican?",
