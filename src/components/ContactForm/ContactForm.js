@@ -11,7 +11,7 @@ const ContactForm = () => {
     <>
       <div className="relative z-0 mb-6 w-full group">
         {success && (
-          <p className="text-black text-center text-xl mb-5">
+          <p className="text-black text-center text-xl my-5">
             Thanks for your message!{" "}
           </p>
         )}
