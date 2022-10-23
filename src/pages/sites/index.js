@@ -7,7 +7,7 @@ import TextComponent from "../../components/TextComponent/TextComponent"
 import LocalDivesOverview from "../../components/LocalDives/LocalDivesOverview"
 
 import { divesites } from "../../data/divesites"
-import DiveSite from "../../components/LocalDives/DiveSite"
+import CardComponent from "../../components/LocalDives/CardComponent"
 
 const index = () => {
   return (
@@ -32,7 +32,7 @@ const index = () => {
       </div>
       <div className="max-w-6xl my-5 xl:my-14 flex flex-col flex-wrap justify-center items-center sm:flex-row mx-5 lg:mx-auto">
         {divesites.map(divesite => {
-          return <DiveSite key={divesite.id} {...divesite} />
+          return <CardComponent key={divesite.id} {...divesite} />
         })}
       </div>
     </Layout>

@@ -17,6 +17,12 @@ const Links = () => {
       <Link to="/trips" className="no-underline">
         <button className="navLinks">Dive Trips</button>
       </Link>
+      <Link to="/species" className="no-underline">
+        <button className="navLinks">Species Guide</button>
+      </Link>
+      <Link to="/contact" className="no-underline">
+        <button className="navLinks">Contact Us</button>
+      </Link>
     </>
   )
 }
