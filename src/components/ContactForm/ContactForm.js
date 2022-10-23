@@ -11,6 +11,7 @@ const ContactForm = () => {
         method="POST"
         action="/contact"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         id="contact"
         className="w-64 md:w-full max-w-md flex flex-col justify-center items-center mx-auto my-5"
       >
