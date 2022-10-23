@@ -2,14 +2,18 @@ import React, { useEffect, useState } from "react"
 
 const ContactForm = () => {
     const [success, setSuccess] = useState(false);
-   
+    useEffect(() => {
+        if ( window.location.search.includes('success=true') ) {
+          setSuccess(true);
+        }
+      }, []);
   return (
     <>
     
       <form
         name="contact"
         method="POST"
-        action="/contact"
+        action="/contact/?success=true"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         id="contact"
@@ -70,7 +74,7 @@ const ContactForm = () => {
         <button
           type="submit"
           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          onClick={() => setSuccess(true)}
+    
         >
           Submit
         </button>
