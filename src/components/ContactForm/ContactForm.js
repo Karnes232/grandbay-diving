@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react"
 
 const ContactForm = () => {
-    const [success, setSuccess] = useState(false);
-    useEffect(() => {
-        if ( window.location.search.includes('success=true') ) {
-          setSuccess(true);
-        }
-      }, []);
+  const [success, setSuccess] = useState(false)
+  useEffect(() => {
+    if (window.location.search.includes("success=true")) {
+      setSuccess(true)
+    }
+  }, [])
   return (
     <>
-    
+      <div className="relative z-0 mb-6 w-full group">
+        {success && (
+          <p className="text-black text-center text-xl mb-5">
+            Thanks for your message!{" "}
+          </p>
+        )}
+      </div>
       <form
         name="contact"
         method="POST"
@@ -19,11 +25,8 @@ const ContactForm = () => {
         id="contact"
         className="w-64 md:w-full max-w-md flex flex-col justify-center items-center mx-auto my-5"
       >
-      <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
         <div className="relative z-0 mb-6 w-full group">
-        {success && (
-            <p style={{ color: "black" }}>Thanks for your message! </p>
-          )}
           <input
             type="name"
             name="name"
@@ -74,7 +77,6 @@ const ContactForm = () => {
         <button
           type="submit"
           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-    
         >
           Submit
         </button>
