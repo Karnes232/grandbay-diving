@@ -37,6 +37,7 @@ const Course = ({ location }) => {
         }
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
       />
+      {course && (
       <Suspense fallback={<div>Loading...</div>}>
       {course.link === "/courses/advanced" && (
         <BackgroundVideo
@@ -53,7 +54,7 @@ const Course = ({ location }) => {
       {course.link === "/courses/openwater" && (
         <BackgroundVideo video={video} className="bg-video-courses" />
       )}
-      </Suspense>
+      </Suspense>)}
       {course && (
         <div className="mb-5">
           <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
