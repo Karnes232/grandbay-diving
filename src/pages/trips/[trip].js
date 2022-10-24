@@ -1,15 +1,20 @@
-import React from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import BackgroundVideo from "../../components/BackgroundVideo/BackgroundVideo"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import video from "../../video/Scuba Diving - 699.mp4"
+import video from "../../video/scubaHero.mp4"
 
 import { trips } from "../../data/trips"
 import TripOverview from "../../components/TripOverview/TripOverview"
-import BackgroundCarousel from "../../components/BackgroundCarousel/BackgroundCarousel"
 
+
+const BackgroundVideo = React.lazy(() =>
+  import("../../components/BackgroundVideo/BackgroundVideo")
+)
+const BackgroundCarousel = React.lazy(() =>
+  import("../../components/BackgroundCarousel/BackgroundCarousel")
+)
 const Trip = ({ location }) => {
   const trip = trips.find(({ link }) => link === location.pathname)
 
@@ -29,7 +34,8 @@ const Trip = ({ location }) => {
         }
         description="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today."
       />
-      <BackgroundVideo video={video} className="bg-video-courses" />
+      <Suspense fallback={<div className="flex justify-center items-center">Loading...</div>}>
+      <BackgroundVideo video={video} className="bg-video-courses" /></Suspense>
       {trip && (
         <>
           <div className="mb-5">
@@ -37,8 +43,8 @@ const Trip = ({ location }) => {
               <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
                 <TextComponent title={trip.title} paragraph={trip.paragraph} />
               </div>
-            </div>
-            <BackgroundCarousel course={trip} />
+            </div><Suspense fallback={<div>Loading...</div>}>
+            <BackgroundCarousel course={trip} /></Suspense>
             <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl lg:h-[35rem]">
               <div className="lg:flex lg:flex-col lg:justify-start xl:min-h-full xl:justify-center xl:mt-0">
                 <TextComponent paragraph={trip.paragraph2} />

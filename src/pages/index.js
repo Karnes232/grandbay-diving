@@ -1,15 +1,24 @@
-import * as React from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
 import Layout from "../components/layout"
-import SelectionComponent from "../components/SelectionComponent/SelectionComponent"
-import BackgroundVideo from "../components/BackgroundVideo/BackgroundVideo"
-import GoogleMapComponent from "../components/GoogleMapComponent/GoogleMapComponent"
-import BackgroundImage from "../components/BackgroundImage/BackgroundImage"
 import Seo from "../components/seo"
 import { schema } from "../data/schema"
 import video from "../video/coral-cut.mp4"
+
+const SelectionComponent = React.lazy(() =>
+  import("../components/SelectionComponent/SelectionComponent")
+)
+const BackgroundVideo = React.lazy(() =>
+  import("../components/BackgroundVideo/BackgroundVideo")
+)
+const BackgroundImage = React.lazy(() =>
+  import("../components/BackgroundImage/BackgroundImage")
+)
+const GoogleMapComponent = React.lazy(() =>
+  import("../components/GoogleMapComponent/GoogleMapComponent")
+)
 
 const IndexPage = () => {
   return (
@@ -45,14 +54,17 @@ const IndexPage = () => {
           breathtaking views that our stunning sea offers."
           />
         </div>
-
-        <SelectionComponent />
+        <Suspense fallback={<div>Loading...</div>}>
+          <SelectionComponent />
+        </Suspense>
         <TextComponent
           title="What can we see while diving in Punta Cana?"
           paragraph="Punta Cana is the underwater jewel of the Dominican Republic. The white beaches, lush vegetation and turquoise sea hide exciting adventures and beautiful seascapes. Look for Dive Center near Me or Scuba School near me in your search engine to find our webpage and contact information. When you are diving with us, we take you to the best dive sites of the region, a paradise for shark lovers, wreck enthusiasts, turtles and rays galore! The healthy reefs around this side of the islands are thriving with marvelous creatures and colorful corals. Shallow reefs here receive sunlight all year round and have the perfect conditions for hard corals to grow beautiful and vigorous: we can see brain corals, labyrinth corals, whip corals, fan corals, acroporas, porites, millepora and pillar corals."
           className="lg:mt-56"
         />
-        <BackgroundVideo video={video} className="bg-video-main" />
+        <Suspense fallback={<div>Loading...</div>}>
+          <BackgroundVideo video={video} className="bg-video-main" />
+        </Suspense>
         <div className="lg:h-[20rem] lg:flex lg:items-center lg:justify-center">
           <TextComponent
             title="About Us"
@@ -60,9 +72,12 @@ const IndexPage = () => {
             className=""
           />
         </div>
-
-        <BackgroundImage />
-        <GoogleMapComponent />
+        <Suspense fallback={<div className="flex justify-center items-center">Loading...</div>}>
+          <BackgroundImage />
+        </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
+          <GoogleMapComponent />
+        </Suspense>
       </main>
     </Layout>
   )

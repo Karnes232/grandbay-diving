@@ -14,6 +14,11 @@
   margin-top: -5rem;
 }
 
+.bg-video-sites {
+  -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+}
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -24,6 +29,10 @@
   opacity: 0.5;
   overflow: hidden;
   filter: brightness(0.8);
+}
+
+.shark-video .bg-video {
+  opacity: 0.75;
 }
 
 .bg-video__content {

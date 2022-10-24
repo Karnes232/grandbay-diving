@@ -1,15 +1,18 @@
-import React from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import SEO from "../../components/seo"
 import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import BackgroundVideo from "../../components/BackgroundVideo/BackgroundVideo"
 import LinksComponent from "../../components/SelectionComponent/LinksComponent"
-import video from "../../video/Scuba Diving - 699.mp4"
+import video from "../../video/scubaHero.mp4"
 import image1 from "../../images/webP/index-selection-1.webp"
 import image2 from "../../images/webP/index-selection-2.webp"
 import image3 from "../../images/webP/index-selection-3.webp"
+
+const BackgroundVideo = React.lazy(() =>
+  import("../../components/BackgroundVideo/BackgroundVideo")
+)
 
 const index = () => {
   return (
@@ -30,7 +33,9 @@ const index = () => {
                         On our local dive at Catalina Island we like to take experienced scuba divers on a deep Wall dive, where we can swim past a beautiful drop-off covered in corals and visited by turtles and sharks. The second dive will be on one of our favorite shallow reefs, The Aquarium, where whip and fan corals hide puffer fish, schools of blue tangs, yellow stingrays, lobsters, moray eels and all sorts of reef fish."
         />
       </div>
-      <BackgroundVideo video={video} className="bg-video-main" />
+      <Suspense fallback={<div>Loading...</div>}>
+        <BackgroundVideo video={video} className="bg-video-main" />
+      </Suspense>
       <div className="h-[85vh] md:h-[45vh] lg:h-[55vh]">
         <div className="flex flex-col h-full justify-evenly items-center  max-w-6xl mx-5 md:flex-row xl:mx-auto">
           <LinksComponent

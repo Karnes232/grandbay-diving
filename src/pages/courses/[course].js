@@ -1,14 +1,23 @@
-import React from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import Layout from "../../components/layout"
-import BackgroundVideo from "../../components/BackgroundVideo/BackgroundVideo"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import video from "../../video/Scuba Diving - 699.mp4"
 
 import { courses } from "../../data/courses"
 import CourseOverview from "../../components/CourseOverview/CourseOverview"
-import BackgroundCarousel from "../../components/BackgroundCarousel/BackgroundCarousel"
 import SEO from "../../components/seo"
+
+import video from "../../video/scubaHero.mp4"
+import videoAdvanced from "../../video/greyshark.mp4"
+import video2 from "../../video/frenchGrunt.mp4"
+
+const BackgroundVideo = React.lazy(() =>
+  import("../../components/BackgroundVideo/BackgroundVideo")
+)
+const BackgroundCarousel = React.lazy(() =>
+  import("../../components/BackgroundCarousel/BackgroundCarousel")
+)
+
 
 const Course = ({ location }) => {
   const course = courses.find(({ link }) => link === location.pathname)
@@ -28,7 +37,23 @@ const Course = ({ location }) => {
         }
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
       />
-      <BackgroundVideo video={video} className="bg-video-courses" />
+      <Suspense fallback={<div>Loading...</div>}>
+      {course.link === "/courses/advanced" && (
+        <BackgroundVideo
+          video={videoAdvanced}
+          className="bg-video-courses shark-video"
+        />
+      )}
+      {course.link === "/courses/discover" && (
+        <BackgroundVideo video={video2} className="bg-video-courses" />
+      )}
+      {course.link === "/courses/scubadiver" && (
+        <BackgroundVideo video={video} className="bg-video-courses" />
+      )}
+      {course.link === "/courses/openwater" && (
+        <BackgroundVideo video={video} className="bg-video-courses" />
+      )}
+      </Suspense>
       {course && (
         <div className="mb-5">
           <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
@@ -51,7 +76,8 @@ const Course = ({ location }) => {
           {course.details && (
             <div className="flex flex-col justify-center items-center">
               {/* <hr class="border-2 border-blue-500 w-52"  /> */}
-              <BackgroundCarousel course={course} />
+              <Suspense fallback={<div>Loading...</div>}>
+              <BackgroundCarousel course={course} /></Suspense>
               <div className="flex flex-col max-w-6xl">
                 <div className="lg:flex xl:space-x-4">
                   <TextComponent paragraph={course.details} />

@@ -1,13 +1,20 @@
-import React from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import SEO from "../../components/seo"
 import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
 import LocalDivesOverview from "../../components/LocalDives/LocalDivesOverview"
-
+import videoAdvanced from "../../video/greyshark.mp4"
 import { divesites } from "../../data/divesites"
-import CardComponent from "../../components/LocalDives/CardComponent"
+
+const CardComponent = React.lazy(() =>
+  import("../../components/LocalDives/CardComponent")
+)
+
+const BackgroundVideo = React.lazy(() =>
+  import("../../components/BackgroundVideo/BackgroundVideo")
+)
 
 const index = () => {
   return (
@@ -30,10 +37,20 @@ const index = () => {
           <LocalDivesOverview />
         </div>
       </div>
-      <div className="max-w-6xl my-5 xl:my-14 flex flex-col flex-wrap justify-center items-center sm:flex-row mx-5 lg:mx-auto">
-        {divesites.map(divesite => {
-          return <CardComponent key={divesite.id} {...divesite} />
-        })}
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="max-w-6xl my-5 xl:my-14 flex flex-col flex-wrap justify-center items-center sm:flex-row mx-5 lg:mx-auto">
+          {divesites.map(divesite => {
+            return <CardComponent key={divesite.id} {...divesite} />
+          })}
+        </div>
+      </Suspense>
+      <div className="">
+        <Suspense fallback={<div>Loading...</div>}>
+          <BackgroundVideo
+            video={videoAdvanced}
+            className="bg-video-sites shark-video"
+          />
+        </Suspense>
       </div>
     </Layout>
   )
