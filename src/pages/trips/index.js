@@ -6,9 +6,9 @@ import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
 import LinksComponent from "../../components/SelectionComponent/LinksComponent"
 import video from "../../video/scubaHero.mp4"
-import image1 from "../../images/webP/index-selection-1.webp"
-import image2 from "../../images/webP/index-selection-2.webp"
-import image3 from "../../images/webP/index-selection-3.webp"
+import image1 from "../../images/phone/catalina-link.webp"
+import image2 from "../../images/phone/saona-link.webp"
+import image3 from "../../images/phone/bayahibe-link2.webp"
 
 const BackgroundVideo = React.lazy(() =>
   import("../../components/BackgroundVideo/BackgroundVideo")
@@ -49,14 +49,14 @@ const index = () => {
             name="Saona Island"
             url="/trips/saona"
             description="Saona Island is the excursion that everyone recommends when they know that you are visiting the Dominican Republic."
-            image={image3}
+            image={image2}
             textColor="text-black"
           />
           <LinksComponent
             name="Bayahibe Diving"
             url="/trips/bayahibe"
             description="This quiet fishing village has some amazing dive sites, including a couple wrecks that will surprise any diver."
-            image={image2}
+            image={image3}
             textColor="text-black"
           />
         </div>

@@ -1,7 +1,10 @@
 import React from "react"
 import SingleCourseCard from "./SingleCourseCard"
 
-import dsdImage from "../../images/webP/index-selection-1.webp"
+import courseCard1 from '../../images/phone/courseCard1.webp'
+import courseCard2 from '../../images/phone/courseCard2.webp'
+import courseCard3 from '../../images/phone/courseCard3.webp'
+import courseCard4 from '../../images/phone/courseCard4.webp'
 
 const CourseCardGroup = () => {
   return (
@@ -10,25 +13,25 @@ const CourseCardGroup = () => {
         <SingleCourseCard
           title="Discover Scuba Diving"
           description="For those who have never tried scuba diving before!"
-          image={dsdImage}
+          image={courseCard2}
           link="/courses/discover"
         />
         <SingleCourseCard
           title="Scuba Diver"
           description="Dive under the direct supervision of a PADI professional to a maximum depth of 12 meters / 40 feet"
-          image={dsdImage}
+          image={courseCard3}
           link="/courses/scubadiver"
         />
         <SingleCourseCard
           title="Open Water Diver"
           description="Dive anywhere in the world with a certified buddy!"
-          image={dsdImage}
+          image={courseCard4}
           link="/courses/openwater"
         />
         <SingleCourseCard
           title="Advanced Open Water Diver"
           description="Take it to the next level!"
-          image={dsdImage}
+          image={courseCard1}
           link="/courses/advanced"
         />
       </div>
