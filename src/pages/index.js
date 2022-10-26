@@ -72,7 +72,11 @@ const IndexPage = () => {
             className=""
           />
         </div>
-        <Suspense fallback={<div className="flex justify-center items-center">Loading...</div>}>
+        <Suspense
+          fallback={
+            <div className="flex justify-center items-center">Loading...</div>
+          }
+        >
           <BackgroundImage />
         </Suspense>
         <Suspense fallback={<div>Loading...</div>}>

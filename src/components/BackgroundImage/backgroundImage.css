@@ -16,11 +16,11 @@
 @media only screen and (min-width: 768px) {
   .background-image {
     background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("../../images/tablet/background-image.webp");
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../../images/tablet/background-image.webp");
   }
 }
 
@@ -28,11 +28,11 @@
   .background-image {
     height: 65vh;
     background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("../../images/desktop/background-image.webp");
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../../images/desktop/background-image.webp");
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
   }

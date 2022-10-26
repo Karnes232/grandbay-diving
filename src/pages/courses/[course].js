@@ -18,7 +18,6 @@ const BackgroundCarousel = React.lazy(() =>
   import("../../components/BackgroundCarousel/BackgroundCarousel")
 )
 
-
 const Course = ({ location }) => {
   const course = courses.find(({ link }) => link === location.pathname)
   return (
@@ -38,23 +37,24 @@ const Course = ({ location }) => {
         description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
       />
       {course && (
-      <Suspense fallback={<div>Loading...</div>}>
-      {course.link === "/courses/advanced" && (
-        <BackgroundVideo
-          video={videoAdvanced}
-          className="bg-video-courses shark-video"
-        />
+        <Suspense fallback={<div>Loading...</div>}>
+          {course.link === "/courses/advanced" && (
+            <BackgroundVideo
+              video={videoAdvanced}
+              className="bg-video-courses shark-video"
+            />
+          )}
+          {course.link === "/courses/discover" && (
+            <BackgroundVideo video={video2} className="bg-video-courses" />
+          )}
+          {course.link === "/courses/scubadiver" && (
+            <BackgroundVideo video={video} className="bg-video-courses" />
+          )}
+          {course.link === "/courses/openwater" && (
+            <BackgroundVideo video={video} className="bg-video-courses" />
+          )}
+        </Suspense>
       )}
-      {course.link === "/courses/discover" && (
-        <BackgroundVideo video={video2} className="bg-video-courses" />
-      )}
-      {course.link === "/courses/scubadiver" && (
-        <BackgroundVideo video={video} className="bg-video-courses" />
-      )}
-      {course.link === "/courses/openwater" && (
-        <BackgroundVideo video={video} className="bg-video-courses" />
-      )}
-      </Suspense>)}
       {course && (
         <div className="my-5">
           <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
@@ -78,7 +78,11 @@ const Course = ({ location }) => {
             <div className="flex flex-col justify-center items-center">
               {/* <hr class="border-2 border-blue-500 w-52"  /> */}
               <Suspense fallback={<div>Loading...</div>}>
-              <BackgroundCarousel course={course} className='course-carousel' /></Suspense>
+                <BackgroundCarousel
+                  course={course}
+                  className="course-carousel"
+                />
+              </Suspense>
               <div className="flex flex-col max-w-6xl">
                 <div className="lg:flex xl:space-x-4">
                   <TextComponent paragraph={course.details} />
@@ -94,8 +98,12 @@ const Course = ({ location }) => {
           )}
           {course.link === "/courses/discover" && (
             <Suspense fallback={<div>Loading...</div>}>
-              <BackgroundCarousel course={course} className='discover-carousel' /></Suspense>
-      )}
+              <BackgroundCarousel
+                course={course}
+                className="discover-carousel"
+              />
+            </Suspense>
+          )}
         </div>
       )}
     </Layout>

@@ -1,10 +1,10 @@
 import React from "react"
 import SingleCourseCard from "./SingleCourseCard"
 
-import courseCard1 from '../../images/phone/courseCard1.webp'
-import courseCard2 from '../../images/phone/courseCard2.webp'
-import courseCard3 from '../../images/phone/courseCard3.webp'
-import courseCard4 from '../../images/phone/courseCard4.webp'
+import courseCard1 from "../../images/phone/courseCard1.webp"
+import courseCard2 from "../../images/phone/courseCard2.webp"
+import courseCard3 from "../../images/phone/courseCard3.webp"
+import courseCard4 from "../../images/phone/courseCard4.webp"
 
 const CourseCardGroup = () => {
   return (

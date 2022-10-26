@@ -1,24 +1,23 @@
-import catalina1 from '../images/webP/catalina.webp'
-import catalina2 from '../images/webP/catalina2.webp'
-import catalina3 from '../images/webP/catalina3.webp'
-import catalina4 from '../images/webP/catalina4.webp'
-import catalina5 from '../images/webP/catalina5.webp'
-import catalina6 from '../images/webP/1280px-The-Aquarium-Catalina-Island.webp'
-import catalina7 from '../images/webP/aviv-perets-eLfDul2Uu8k-unsplash.webp'
-import catalina8 from '../images/webP/tortoise-5029662_1280.webp'
+import catalina1 from "../images/webP/catalina.webp"
+import catalina2 from "../images/webP/catalina2.webp"
+import catalina3 from "../images/webP/catalina3.webp"
+import catalina4 from "../images/webP/catalina4.webp"
+import catalina5 from "../images/webP/catalina5.webp"
+import catalina6 from "../images/webP/1280px-The-Aquarium-Catalina-Island.webp"
+import catalina7 from "../images/webP/aviv-perets-eLfDul2Uu8k-unsplash.webp"
+import catalina8 from "../images/webP/tortoise-5029662_1280.webp"
 
-import bayahibe1 from '../images/webP/bayahibe.webp'
-import bayahibe2 from '../images/webP/bayahibe1.webp'
-import bayahibe3 from '../images/webP/bayahibe2.webp'
-import bayahibe4 from '../images/webP/bayahibe3.webp'
-import bayahibe5 from '../images/webP/octopus-428745_1920.webp'
+import bayahibe1 from "../images/webP/bayahibe.webp"
+import bayahibe2 from "../images/webP/bayahibe1.webp"
+import bayahibe3 from "../images/webP/bayahibe2.webp"
+import bayahibe4 from "../images/webP/bayahibe3.webp"
+import bayahibe5 from "../images/webP/octopus-428745_1920.webp"
 
-import saona1 from '../images/webP/saona1.webp'
-import saona2 from '../images/webP/saona2.webp'
-import saona3 from '../images/webP/saona3.webp'
-import saona4 from '../images/webP/saona4.webp'
-import saona5 from '../images/webP/pexels-richard-segal-1645028.webp'
-
+import saona1 from "../images/webP/saona1.webp"
+import saona2 from "../images/webP/saona2.webp"
+import saona3 from "../images/webP/saona3.webp"
+import saona4 from "../images/webP/saona4.webp"
+import saona5 from "../images/webP/pexels-richard-segal-1645028.webp"
 
 export const trips = [
   {
@@ -40,7 +39,14 @@ export const trips = [
     paragraph3:
       "<strong>THE AQUARIUM:</strong> The dive site is protected from the wind. Year round perfect conditions at the surface guarantee a very easy dive at about 12 meters depth. Incredibly healthy coral formations await you on the almost flat sandy bottom. Yellow stingrays, lobsters, moray eels, angelfish, grunts, snappers, soldier fish and trunkfish are only part of its attraction. Huge vase and barrel sponges hide stone crabs and “sea spiders”. You will see trumpet fish trying to blend in with the branches of soft coral formations.",
     photos: [
-      {catalina1},{catalina2},{catalina3},{catalina4},{catalina5},{catalina6},{catalina7},{catalina8}
+      { catalina1 },
+      { catalina2 },
+      { catalina3 },
+      { catalina4 },
+      { catalina5 },
+      { catalina6 },
+      { catalina7 },
+      { catalina8 },
     ].sort(() => Math.random() - 0.5),
   },
   {
@@ -60,7 +66,11 @@ export const trips = [
     paragraph3:
       "The small fishing village of Bayahibe is located on the south coast of the Dominican Republic, a great place to visit any time of the year. Scuba diving in Bayahibe, is probably the best scuba diving on the whole Island. Diving in Bayahibe is generally easy. Most of the reefs just offshore and the protected side of Saona Island have little to no current.",
     photos: [
-      {bayahibe1},{bayahibe2},{bayahibe3},{bayahibe4},{bayahibe5}
+      { bayahibe1 },
+      { bayahibe2 },
+      { bayahibe3 },
+      { bayahibe4 },
+      { bayahibe5 },
     ].sort(() => Math.random() - 0.5),
   },
   {
@@ -80,8 +90,8 @@ export const trips = [
       "Our diving excursion to Saona Island is very personalized as we only do it with private groups with a minimum of 2 people. That way we are able to provide the best service possible. The excursion is possible any day as long as the conditions are permitting. We will leave From the Punta Cana area at 8:30 am, (since it is private you don't have to wait for anyone else). It will take approximately 40 minutes until we reach Bayahibe where we will embark for our journey.",
     paragraph3:
       "The first dive we will do is the Atlantic princess which is a very interesting shipwreck with a lot of marine life, this allows your companions who do not dive the chance to snorkel. Afterwards we head towards Saona Island for the second dive, this will be at el Penon. It is one of the best places to dive in the Caribbean Sea since it is somewhat remote and lacks divers where you can also enjoy snorkeling. Then we go to one of the 7 beaches that Saona Island has where we are going to enjoy a delicious buffet just for us. Then we can relax on the beautiful beach, on our way back we can stop at the natural pool and enjoy there seeing the starfish.",
-    photos: [
-      {saona1},{saona2},{saona3},{saona4},{saona5}
-    ].sort(() => Math.random() - 0.5),
+    photos: [{ saona1 }, { saona2 }, { saona3 }, { saona4 }, { saona5 }].sort(
+      () => Math.random() - 0.5
+    ),
   },
 ]
