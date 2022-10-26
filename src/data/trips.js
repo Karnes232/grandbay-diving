@@ -1,3 +1,7 @@
+import catalina from '../images/webP/catalina.webp'
+import catalina2 from '../images/webP/catalina2.webp'
+import catalina3 from '../images/webP/catalina3.webp'
+
 export const trips = [
   {
     id: 1,
@@ -18,9 +22,7 @@ export const trips = [
     paragraph3:
       "<strong>THE AQUARIUM:</strong> The dive site is protected from the wind. Year round perfect conditions at the surface guarantee a very easy dive at about 12 meters depth. Incredibly healthy coral formations await you on the almost flat sandy bottom. Yellow stingrays, lobsters, moray eels, angelfish, grunts, snappers, soldier fish and trunkfish are only part of its attraction. Huge vase and barrel sponges hide stone crabs and “sea spiders”. You will see trumpet fish trying to blend in with the branches of soft coral formations.",
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      {catalina},{catalina2},{catalina3}
     ],
   },
   {
@@ -40,9 +42,10 @@ export const trips = [
     paragraph3:
       "The small fishing village of Bayahibe is located on the south coast of the Dominican Republic, a great place to visit any time of the year. Scuba diving in Bayahibe, is probably the best scuba diving on the whole Island. Diving in Bayahibe is generally easy. Most of the reefs just offshore and the protected side of Saona Island have little to no current.",
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      "https://i.ibb.co/dfRDTZD/bayahibe3.jpg",
+      "https://i.ibb.co/wRqSjjm/bayahibe2.jpg",
+      "https://i.ibb.co/DLqgdYb/bayahibe.jpg",
+      "https://i.ibb.co/5RJrTcq/bayahibe1.jpg"
     ],
   },
   {
@@ -63,9 +66,12 @@ export const trips = [
     paragraph3:
       "The first dive we will do is the Atlantic princess which is a very interesting shipwreck with a lot of marine life, this allows your companions who do not dive the chance to snorkel. Afterwards we head towards Saona Island for the second dive, this will be at el Penon. It is one of the best places to dive in the Caribbean Sea since it is somewhat remote and lacks divers where you can also enjoy snorkeling. Then we go to one of the 7 beaches that Saona Island has where we are going to enjoy a delicious buffet just for us. Then we can relax on the beautiful beach, on our way back we can stop at the natural pool and enjoy there seeing the starfish.",
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      "https://i.ibb.co/tpqtVRj/saona4.jpg",
+      "https://i.ibb.co/yNwvTTz/saona1.jpg",
+      "https://i.ibb.co/1ntN8jh/catalina3.jpg",
+      "https://i.ibb.co/PzbqWYh/saona2.jpg",
+      "https://i.ibb.co/BGTZJBf/saona3.jpg",
+
     ],
   },
 ]

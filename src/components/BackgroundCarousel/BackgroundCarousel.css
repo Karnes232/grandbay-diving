@@ -9,11 +9,18 @@
   object-fit: cover;
 }
 
+.carousel-image, img {
+  height: 19rem;
+}
+
 @media only screen and (min-width: 768px) {
   .course-carousel {
     height: 45vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
+  }
+  .carousel-image, img {
+    height: 32rem;
   }
 }
 
@@ -23,6 +30,9 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
   }
+  .carousel-image, img {
+    height: 27rem;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -30,5 +40,8 @@
     height: 65vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+  }
+  .carousel-image, img {
+    height: 45rem;
   }
 }

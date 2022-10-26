@@ -2,7 +2,7 @@ import React from "react"
 import CustomPayPal from "../PayPalButtonWrapper/CustomPayPal"
 
 const TripOveriew = ({ trip }) => {
-  console.log(trip)
+
   return (
     <div className="my-5">
       {" "}
