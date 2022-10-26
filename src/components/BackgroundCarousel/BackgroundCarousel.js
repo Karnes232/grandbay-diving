@@ -6,7 +6,7 @@ const BackgroundCarousel = ({ course, className }) => {
 
   return (
     <div className={`${className} my-2`}>
-      <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
+      <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true} showIndicators={false}>
         {course.photos.map((image, index) => (
           <div className="lg:h-[55vh] xl:h-[65vh] limited-height" key={index}>
             <img
