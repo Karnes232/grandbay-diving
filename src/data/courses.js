@@ -1,3 +1,31 @@
+import photo1 from '../images/webP/20190320-145703.webp'
+import photo2 from '../images/webP/20190501-093335.webp'
+import photo3 from '../images/webP/aviv-perets-eLfDul2Uu8k-unsplash.webp'
+import photo4 from '../images/webP/c5d3f350-9421-4445-811b-d80ea8ad2247.webp'
+import photo5 from '../images/webP/daniel-pelaez-duque-WuCdbFBDFjM-unsplash.webp'
+import photo6 from '../images/webP/ds1.webp'
+import photo7 from '../images/webP/DSC5389.webp'
+import photo8 from '../images/webP/DSC6729.webp'
+import photo9 from '../images/webP/giachen-s-world-Q-EEDLZuQ6I-unsplash.webp'
+import photo10 from '../images/webP/GOPR2873.webp'
+import photo11 from '../images/webP/image4.webp'
+import photo12 from '../images/webP/JHO-0831-Editar.webp'
+import photo13 from '../images/webP/juanma-clemente-alloza-_k82HQ1OBoM-unsplash.webp'
+import photo14 from '../images/webP/kris-mikael-krister-aGihPIbrtVE-unsplash.webp'
+import photo15 from '../images/webP/lion-fish-501647_1280.webp'
+import photo16 from '../images/webP/moray-eel-2793632_1280.webp'
+import photo17 from '../images/webP/octopus-428745_1920.webp'
+import photo18 from '../images/webP/pexels-leonardo-lamas-7001709.webp'
+import photo19 from '../images/webP/pexels-pixabay-37545.webp'
+import photo20 from '../images/webP/pexels-richard-segal-1645028.webp'
+import photo21 from '../images/webP/photo8.webp'
+import photo22 from '../images/webP/photo9.webp'
+import photo23 from '../images/webP/sebastian-pena-lambarri-44r12Ck_CoI-unsplash.webp'
+import photo24 from '../images/webP/sebastian-pena-lambarri-O1KSItQ1Uf4-unsplash.webp'
+import photo25 from '../images/webP/tortoise-5029662_1280.webp'
+import photo26 from '../images/webP/turtle-588497_1280.webp'
+import photo27 from '../images/webP/vlad-tchompalov-LsIXVKThAG0-unsplash.webp'
+
 export const courses = [
   {
     id: 1,
@@ -15,9 +43,8 @@ export const courses = [
       duration: "2.5 Hours",
     },
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      {photo1}, {photo2}, {photo3}, {photo4}, {photo5}, {photo6}, {photo7}, {photo8}, {photo9}, {photo10}, {photo11}, {photo12}, 
+      {photo13}, {photo14}, {photo15}, {photo16}, {photo17}, {photo18}, {photo19}, {photo20}, {photo21}, {photo22}, {photo23}, {photo24}, {photo25}, {photo26}, {photo27}
     ].sort(() => Math.random() - 0.5),
   },
   {
@@ -46,9 +73,8 @@ export const courses = [
       extra: "Over 2 days",
     },
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      {photo1}, {photo2}, {photo3}, {photo4}, {photo5}, {photo6}, {photo7}, {photo8}, {photo9}, {photo10}, {photo11}, {photo12}, 
+      {photo13}, {photo14}, {photo15}, {photo16}, {photo17}, {photo18}, {photo19}, {photo20}, {photo21}, {photo22}, {photo23}, {photo24}, {photo25}, {photo26}, {photo27}
     ].sort(() => Math.random() - 0.5),
   },
   {
@@ -77,9 +103,8 @@ export const courses = [
       extra: "Over 3 days",
     },
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      {photo1}, {photo2}, {photo3}, {photo4}, {photo5}, {photo6}, {photo7}, {photo8}, {photo9}, {photo10}, {photo11}, {photo12}, 
+      {photo13}, {photo14}, {photo15}, {photo16}, {photo17}, {photo18}, {photo19}, {photo20}, {photo21}, {photo22}, {photo23}, {photo24}, {photo25}, {photo26}, {photo27}
     ].sort(() => Math.random() - 0.5),
   },
   {
@@ -108,9 +133,8 @@ export const courses = [
       extra: "Over 3 days",
     },
     photos: [
-      "https://i.ibb.co/vdRhh9S/ds1.jpg",
-      "https://i.ibb.co/3vsmJ6X/image12.jpg",
-      "https://i.ibb.co/cX4jwpp/image25.jpg",
+      {photo1}, {photo2}, {photo3}, {photo4}, {photo5}, {photo6}, {photo7}, {photo8}, {photo9}, {photo10}, {photo11}, {photo12}, 
+      {photo13}, {photo14}, {photo15}, {photo16}, {photo17}, {photo18}, {photo19}, {photo20}, {photo21}, {photo22}, {photo23}, {photo24}, {photo25}, {photo26}, {photo27}
     ].sort(() => Math.random() - 0.5),
   },
 ]
