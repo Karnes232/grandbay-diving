@@ -9,7 +9,7 @@
   object-fit: cover;
 }
 
-.carousel-image, img {
+.limited-height img {
   height: 19rem;
 }
 
@@ -19,7 +19,7 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
   }
-  .carousel-image, img {
+  .limited-height img {
     height: 32rem;
   }
 }
@@ -30,7 +30,7 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
   }
-  .carousel-image, img {
+  .limited-height img {
     height: 27rem;
   }
 }
@@ -41,7 +41,7 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
   }
-  .carousel-image, img {
+  .limited-height img {
     height: 45rem;
   }
 }
