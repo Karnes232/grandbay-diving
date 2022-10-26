@@ -5,6 +5,14 @@
   clip-path: polygon(0 5vh, 100% 0, 100% 30vh, 0% 100%);
 }
 
+.discover-carousel {
+  height: 35vh;
+  position: relative;
+  -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 35vh, 0% 100%);
+  clip-path: polygon(0 5vh, 100% 0, 100% 35vh, 0% 100%);
+  margin-bottom: -1.5rem;
+}
+
 .carousel-image {
   object-fit: cover;
 }
@@ -19,6 +27,13 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 40vh, 0% 100%);
   }
+  .discover-carousel {
+    height: 45vh;
+    position: relative;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 45vh, 0% 100%);
+    margin-bottom: -1.5rem;
+  }
   .limited-height img {
     height: 32rem;
   }
@@ -30,6 +45,13 @@
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 50vh, 0% 100%);
   }
+  .discover-carousel {
+    height: 55vh;
+    position: relative;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 55vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 55vh, 0% 100%);
+    margin-bottom: -1.5rem;
+  }
   .limited-height img {
     height: 27rem;
   }
@@ -40,6 +62,13 @@
     height: 65vh;
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+  }
+  .discover-carousel {
+    height: 65vh;
+    position: relative;
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 65vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 65vh, 0% 100%);
+    margin-bottom: -1.5rem;
   }
   .limited-height img {
     height: 45rem;

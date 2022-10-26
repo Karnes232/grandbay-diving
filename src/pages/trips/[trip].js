@@ -44,7 +44,7 @@ const Trip = ({ location }) => {
                 <TextComponent title={trip.title} paragraph={trip.paragraph} />
               </div>
             </div><Suspense fallback={<div>Loading...</div>}>
-            <BackgroundCarousel course={trip} /></Suspense>
+            <BackgroundCarousel course={trip} className='course-carousel' /></Suspense>
             <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl lg:h-[35rem]">
               <div className="lg:flex lg:flex-col lg:justify-start xl:min-h-full xl:justify-center xl:mt-0">
                 <TextComponent paragraph={trip.paragraph2} />

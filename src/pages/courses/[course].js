@@ -78,7 +78,7 @@ const Course = ({ location }) => {
             <div className="flex flex-col justify-center items-center">
               {/* <hr class="border-2 border-blue-500 w-52"  /> */}
               <Suspense fallback={<div>Loading...</div>}>
-              <BackgroundCarousel course={course} /></Suspense>
+              <BackgroundCarousel course={course} className='course-carousel' /></Suspense>
               <div className="flex flex-col max-w-6xl">
                 <div className="lg:flex xl:space-x-4">
                   <TextComponent paragraph={course.details} />
@@ -92,6 +92,10 @@ const Course = ({ location }) => {
               </div>
             </div>
           )}
+          {course.link === "/courses/discover" && (
+            <Suspense fallback={<div>Loading...</div>}>
+              <BackgroundCarousel course={course} className='discover-carousel' /></Suspense>
+      )}
         </div>
       )}
     </Layout>
