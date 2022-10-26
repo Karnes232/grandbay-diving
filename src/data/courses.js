@@ -18,7 +18,7 @@ export const courses = [
       "https://i.ibb.co/vdRhh9S/ds1.jpg",
       "https://i.ibb.co/3vsmJ6X/image12.jpg",
       "https://i.ibb.co/cX4jwpp/image25.jpg",
-    ],
+    ].sort(() => Math.random() - 0.5),
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ export const courses = [
       "https://i.ibb.co/vdRhh9S/ds1.jpg",
       "https://i.ibb.co/3vsmJ6X/image12.jpg",
       "https://i.ibb.co/cX4jwpp/image25.jpg",
-    ],
+    ].sort(() => Math.random() - 0.5),
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ export const courses = [
       "https://i.ibb.co/vdRhh9S/ds1.jpg",
       "https://i.ibb.co/3vsmJ6X/image12.jpg",
       "https://i.ibb.co/cX4jwpp/image25.jpg",
-    ],
+    ].sort(() => Math.random() - 0.5),
   },
   {
     id: 4,
@@ -111,6 +111,6 @@ export const courses = [
       "https://i.ibb.co/vdRhh9S/ds1.jpg",
       "https://i.ibb.co/3vsmJ6X/image12.jpg",
       "https://i.ibb.co/cX4jwpp/image25.jpg",
-    ],
+    ].sort(() => Math.random() - 0.5),
   },
 ]
