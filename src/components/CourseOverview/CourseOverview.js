@@ -1,6 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
 import CustomPayPal from "../PayPalButtonWrapper/CustomPayPal"
-
+import { motion } from "framer-motion"
 const CourseOverview = ({ course }) => {
   return (
     <div className="my-5">
@@ -26,6 +27,23 @@ const CourseOverview = ({ course }) => {
             {course.overview.extra}
           </p>
         )}
+      </div>
+      <div className="flex justify-center w-[200px] h-[35px] mx-auto">
+        <Link to="/contact" className="no-underline w-[200px] h-[35px]">
+          <button className=" bg-[#2C2E2F] text-[#FFF] text-sm rounded-3xl w-full h-full px-5">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 3,
+                delay: 0.3,
+              }}
+            >
+              Contact Us
+            </motion.p>
+          </button>
+        </Link>
       </div>
       <div className="flex flex-col justify-center items-center mb-4">
         <p className="mb-1 mt-2">
