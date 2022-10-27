@@ -36,12 +36,16 @@ const Tours = ({ location }) => {
       >
         <BackgroundVideo video={video} className="bg-video-courses" />
       </Suspense>
-      {tour.link === "/tui/discover" && <CourseComponent course={tour} />}
-      {tour.link === "/tui/scubadiver" && <CourseComponent course={tour} />}
-      {tour.link === "/tui/openwater" && <CourseComponent course={tour} />}
-      {tour.link === "/tui/advanced" && <CourseComponent course={tour} />}
-      {tour.link === "/tui/catalina" && <TripComponent trip={tour} />}
-      {tour.link === "/tui/bayahibe" && <TripComponent trip={tour} />}
+      {tour && (
+        <>
+          {tour.link === "/tui/discover" && <CourseComponent course={tour} />}
+          {tour.link === "/tui/scubadiver" && <CourseComponent course={tour} />}
+          {tour.link === "/tui/openwater" && <CourseComponent course={tour} />}
+          {tour.link === "/tui/advanced" && <CourseComponent course={tour} />}
+          {tour.link === "/tui/catalina" && <TripComponent trip={tour} />}
+          {tour.link === "/tui/bayahibe" && <TripComponent trip={tour} />}
+        </>
+      )}
     </TuiLayout>
   )
 }
