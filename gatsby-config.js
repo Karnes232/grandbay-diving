@@ -9,6 +9,7 @@ module.exports = {
     image: "https://i.ibb.co/mcHjrpT/logo01.jpg",
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     "gatsby-plugin-image",
     "gatsby-plugin-postcss",
     // {
