@@ -36,12 +36,12 @@ const index = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <BackgroundVideo video={video} className="bg-video-main" />
       </Suspense>
-      <div className="h-[85vh] md:h-[45vh] lg:h-[55vh]">
+      <div className="h-[95vh] md:h-[45vh] lg:h-[65vh]">
         <div className="flex flex-col h-full justify-evenly items-center  max-w-6xl mx-5 md:flex-row xl:mx-auto">
           <LinksComponent
             name="Catalina Island"
             url="/trips/catalina"
-            description="If you dreamed of a Caribbean paradise, you'll find it right here on Catalina Island."
+            description="If you dreamed of a Caribbean paradise, you'll find it right here on Catalina Island. Crystal-clear water, gorgeous beaches."
             image={image1}
             textColor="text-black"
           />

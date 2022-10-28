@@ -44,7 +44,7 @@ const Trip = ({ location }) => {
         <>
           <div className="mb-5">
             <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[20rem]">
-              <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
+              <div className="my-5 lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
                 <TextComponent title={trip.title} paragraph={trip.paragraph} />
               </div>
             </div>
