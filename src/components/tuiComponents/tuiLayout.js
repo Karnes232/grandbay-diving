@@ -2,6 +2,7 @@ import React from "react"
 import Logo from "../HeaderComponents/Logo"
 import Copyright from "../FooterComponent/Copyright"
 import SocialMedia from "../FooterComponent/SocialMedia"
+import TuiHamburgerMenu from "./TuiHamburgerMenu"
 
 export default function TuiLayout({ children }) {
   return (
@@ -10,7 +11,7 @@ export default function TuiLayout({ children }) {
         <div className="flex items-center justify-between bg-transparent max-w-6xl mx-5 xl:mx-auto">
           <Logo />
 
-          <div></div>
+          <TuiHamburgerMenu />
         </div>
       </nav>
       {children}
