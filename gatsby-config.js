@@ -20,6 +20,12 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/logo.png",
+        name: `Grand Bay of the Sea`,
+        short_name: `Grand Bay`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#0c16d9`,
+        display: `standalone`,
       },
     },
     "gatsby-plugin-sharp",
