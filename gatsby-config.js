@@ -38,47 +38,47 @@ module.exports = {
       },
       __key: "images",
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-6MJLJ90SSM",
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-        exclude: ["/preview/**", "/tui/**"],
-        pageTransitionDelay: 0,
-        defer: false,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        enableWebVitalsTracking: true,
-      },
-    },
     // {
-    //   resolve: `gatsby-plugin-google-gtag`,
+    //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
-    //     trackingIds: ["G-6MJLJ90SSM", "GTM-KGLHKQW"],
-    //     gtagConfig: {
-    //       optimize_id: "OPT_CONTAINER_ID",
-    //       anonymize_ip: true,
-    //       cookie_expires: 0,
-    //     },
-    //     pluginConfig: {
-    //       head: false,
-    //       respectDNT: true,
-    //       exclude: ["/preview/**", "/tui/**"],
-    //     },
+    //     trackingId: "G-6MJLJ90SSM",
+    //     head: true,
+    //     anonymize: true,
+    //     respectDNT: true,
+    //     exclude: ["/preview/**", "/tui/**"],
+    //     pageTransitionDelay: 0,
+    //     defer: false,
+    //     sampleRate: 5,
+    //     siteSpeedSampleRate: 10,
+    //     enableWebVitalsTracking: true,
     //   },
     // },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        id: "GTM-KGLHKQW",
-
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
-
-        enableWebVitalsTracking: true,
+        trackingIds: ["G-6MJLJ90SSM", "GTM-KGLHKQW"],
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/tui/**"],
+        },
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-google-tagmanager",
+    //   options: {
+    //     id: "GTM-KGLHKQW",
+
+    //     includeInDevelopment: false,
+    //     defaultDataLayer: { platform: "gatsby" },
+
+    //     enableWebVitalsTracking: true,
+    //   },
+    // },
   ],
 }
