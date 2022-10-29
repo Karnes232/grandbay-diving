@@ -8,6 +8,7 @@ export default function Layout({ children }) {
     <div className="min-h-screen flex flex-col justify-between overflow-x-hidden">
       <Helment>
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </Helment>
       <Header />
       {children}
