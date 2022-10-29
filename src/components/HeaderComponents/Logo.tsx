@@ -8,7 +8,17 @@ const Logo = () => {
     <>
       <div className="flex justify-center items-center">
         <Link to="/" className="no-underline" aria-label="Home">
-          <div className="flex p-2 md:p-6 items-center w-20 h-20 cursor-pointer md:w-40 md:h-40">
+        
+          <div className="flex lg:hidden p-2 md:p-6 items-center w-20 h-20 cursor-pointer md:w-40 md:h-40">
+            <StaticImage
+              src="../../images/tablet/logo.webp"
+              loading="eager"
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+            />
+          </div>
+          <div className="hidden lg:flex p-2 md:p-6 items-center w-20 h-20 cursor-pointer md:w-40 md:h-40">
             <StaticImage
               src="../../images/logo.png"
               loading="eager"
