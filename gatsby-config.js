@@ -24,7 +24,7 @@ module.exports = {
         short_name: `Grand Bay`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#0c16d9`,
+        theme_color: `#1f2937`,
         display: `standalone`,
       },
     },
