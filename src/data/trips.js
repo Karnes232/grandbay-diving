@@ -25,7 +25,7 @@ export const trips = [
     link: "/trips/catalina",
     name: "Catalina Island",
     overview: {
-      price: 175,
+      price: 185,
       companion: 90,
       duration: "7:30 - 18:00",
       extra: "Lunch included",
