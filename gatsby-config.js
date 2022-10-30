@@ -56,12 +56,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-6MJLJ90SSM", "GTM-KGLHKQW"],
-        gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
+        trackingIds: ["G-6MJLJ90SSM"],
         pluginConfig: {
           head: false,
           respectDNT: true,
@@ -69,16 +64,16 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-tagmanager",
-    //   options: {
-    //     id: "GTM-KGLHKQW",
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-KGLHKQW",
 
-    //     includeInDevelopment: false,
-    //     defaultDataLayer: { platform: "gatsby" },
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
 
-    //     enableWebVitalsTracking: true,
-    //   },
-    // },
+        enableWebVitalsTracking: true,
+      },
+    },
   ],
 }
