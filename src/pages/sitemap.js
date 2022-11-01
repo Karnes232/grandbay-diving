@@ -1,4 +1,5 @@
 import React from "react"
+import Seo from "../components/seo"
 
 const topStyle = {
   backgroundColor: "#b1d1e8",
@@ -79,6 +80,10 @@ const ulStyle = {
 const sitemap = () => {
   return (
     <>
+    <Seo
+        title="Site Map | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy"
+        description="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away."
+      />
       <div style={topStyle} id="top">
         <nav style={navStyle}>grandbay-2.netlify.app HTML Site Map</nav>
         <h3 style={h3Style}>
