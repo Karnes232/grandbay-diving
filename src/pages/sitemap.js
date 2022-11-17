@@ -80,7 +80,7 @@ const ulStyle = {
 const sitemap = () => {
   return (
     <>
-    <Seo
+      <Seo
         title="Site Map | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy"
         description="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away."
       />

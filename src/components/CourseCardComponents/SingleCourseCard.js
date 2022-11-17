@@ -1,6 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-const SingleCourseCard = ({ title, description, image, link }) => {
+const SingleCourseCard = ({
+  title,
+  description,
+  image,
+  link,
+  hash1,
+  hash2,
+  hash3,
+}) => {
   return (
     <Link to={link} className="no-underline">
       <div className="max-w-xs w-80 my-4 rounded overflow-hidden shadow-lg">
@@ -11,13 +19,13 @@ const SingleCourseCard = ({ title, description, image, link }) => {
         </div>
         <div className="px-6 pt-4 pb-2">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
+            #{hash1}
           </span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
+            #{hash2}
           </span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
+            #{hash3}
           </span>
         </div>
       </div>
