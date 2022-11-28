@@ -36,13 +36,13 @@ function SEO({ description, lang, meta, title, schemaMarkup }) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      //title={title}
       titleTemplate={defaultTitle ? `%s` : null}
       meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
+        // {
+        //   name: `description`,
+        //   content: metaDescription,
+        // },
         {
           property: `og:title`,
           content: title,
