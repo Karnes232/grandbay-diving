@@ -57,3 +57,10 @@ const index = () => {
 }
 
 export default index
+
+export const Head = () => (
+  <>
+    <title>Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana</title>
+    <meta name="description" content="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away." />
+  </>
+)

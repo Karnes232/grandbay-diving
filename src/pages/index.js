@@ -89,4 +89,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-//export const Head = () => <title>Home Page</title>
+export const Head = () => (
+  <>
+    <title>Grand Bay of the Sea | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy</title>
+    <meta name="description" content="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now." />
+  </>
+)

@@ -66,3 +66,10 @@ const index = () => {
 }
 
 export default index
+
+export const Head = () => (
+  <>
+    <title>Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana</title>
+    <meta name="description" content="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today." />
+  </>
+)

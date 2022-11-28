@@ -26,3 +26,10 @@ const contact = () => {
 }
 
 export default contact
+
+export const Head = () => (
+  <>
+    <title>Contact Us | Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana</title>
+    <meta name="description" content="Come and discover scuba diving with the experts at Grand Bay of The Sea. Contact Us for personalized packages and services." />
+  </>
+)
