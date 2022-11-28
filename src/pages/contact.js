@@ -14,10 +14,7 @@ const contact = () => {
           href="https://www.grandbay-puntacana.com/contact"
         />
       </Helment>
-      <SEO
-        title="Contact Us | Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana"
-        description="Come and discover scuba diving with the experts at Grand Bay of The Sea. Contact Us for personalized packages and services."
-      />
+      <SEO />
       <HeroComponent page="courses" />
       <div className="mt-[45vh] md:mt-[40vh] lg:mt-[60vh] xl:mt-[65vh]"></div>
       <ContactForm />
@@ -29,7 +26,13 @@ export default contact
 
 export const Head = () => (
   <>
-    <title>Contact Us | Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana</title>
-    <meta name="description" content="Come and discover scuba diving with the experts at Grand Bay of The Sea. Contact Us for personalized packages and services." />
+    <title>
+      Contact Us | Padi Course In Punta Cana | Scuba Classes | Scuba School Near
+      Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana
+    </title>
+    <meta
+      name="description"
+      content="Come and discover scuba diving with the experts at Grand Bay of The Sea. Contact Us for personalized packages and services."
+    />
   </>
 )

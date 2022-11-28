@@ -30,11 +30,7 @@ const IndexPage = () => {
           content="QNQfgD0iQIbuHkuZ5fb8hKEYbV6iCN_TvIyRdnAu7yg"
         />
       </Helment>
-      <Seo
-        title="Grand Bay of the Sea | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy"
-        description="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now."
-        schemaMarkup={schema}
-      />
+      <Seo schemaMarkup={schema} />
       <main>
         <HeroComponent page="index" />
         <div className="mt-[50vh] md:mt-[40vh] lg:mt-[70vh]">
@@ -91,7 +87,13 @@ export default IndexPage
 
 export const Head = () => (
   <>
-    <title>Grand Bay of the Sea | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy</title>
-    <meta name="description" content="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now." />
+    <title>
+      Grand Bay of the Sea | Dive Company Punta Cana | Diving Training Center
+      Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy
+    </title>
+    <meta
+      name="description"
+      content="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now."
+    />
   </>
 )

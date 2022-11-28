@@ -23,7 +23,7 @@ const courses = () => {
           href="https://www.grandbay-puntacana.com/courses"
         />
       </Helment>
-      <SEO/>
+      <SEO />
       <HeroComponent page="courses" />
       <div className="mt-[50vh] md:mt-[40vh] lg:mt-[70vh]"></div>
       <TextComponent
@@ -56,7 +56,13 @@ export default courses
 
 export const Head = () => (
   <>
-    <title>Padi Course In Punta Cana | Scuba Classes | Scuba Diving in Punta Cana | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana</title>
-    <meta name="description" content="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana." />
+    <title>
+      Padi Course In Punta Cana | Scuba Classes | Scuba Diving in Punta Cana |
+      Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana
+    </title>
+    <meta
+      name="description"
+      content="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
+    />
   </>
 )

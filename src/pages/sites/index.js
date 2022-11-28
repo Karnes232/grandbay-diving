@@ -22,10 +22,7 @@ const index = () => {
       <Helment>
         <link rel="canonical" href="https://www.grandbay-puntacana.com/sites" />
       </Helment>
-      <SEO
-        title="Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana"
-        description="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away."
-      />
+      <SEO />
       <HeroComponent page="courses" />
       <div className="mt-[45vh] md:mt-[40vh] lg:mt-[60vh]"></div>
       <div className="max-w-6xl my-5 xl:my-14 flex flex-col justify-center items-center lg:flex-row mx-5 lg:mx-auto">
@@ -60,7 +57,13 @@ export default index
 
 export const Head = () => (
   <>
-    <title>Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana</title>
-    <meta name="description" content="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away." />
+    <title>
+      Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba
+      Certification Punta Cana | Padi Scuba Diving Punta Cana
+    </title>
+    <meta
+      name="description"
+      content="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away."
+    />
   </>
 )

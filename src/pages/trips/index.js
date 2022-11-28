@@ -20,10 +20,7 @@ const index = () => {
       <Helment>
         <link rel="canonical" href="https://www.grandbay-puntacana.com/trips" />
       </Helment>
-      <SEO
-        title="Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana"
-        description="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today."
-      />
+      <SEO />
       <HeroComponent page="courses" />
       <div className="mt-[45vh] md:mt-[40vh] lg:mt-[60vh]"></div>
       <div className="my-5 xl:my-14">
@@ -70,6 +67,9 @@ export default index
 export const Head = () => (
   <>
     <title>Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana</title>
-    <meta name="description" content="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today." />
+    <meta
+      name="description"
+      content="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today."
+    />
   </>
 )
