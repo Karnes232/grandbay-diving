@@ -19,9 +19,9 @@ const CourseOverview = ({ course }) => {
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: {course.overview.duration}
         </p>
-        <p className="my-1 text-sm md:text-base xl:text-lg">
+        {/* <p className="my-1 text-sm md:text-base xl:text-lg">
           Includes: Transport
-        </p>
+        </p> */}
         {course.overview.extra && (
           <p className="my-1 text-sm md:text-base xl:text-lg">
             {course.overview.extra}
