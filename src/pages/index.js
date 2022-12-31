@@ -6,10 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { schema } from "../data/schema"
 import video from "../video/coral-cut.mp4"
+import SelectionComponent from "../components/SelectionComponent/SelectionComponent"
 
-const SelectionComponent = React.lazy(() =>
-  import("../components/SelectionComponent/SelectionComponent")
-)
 const BackgroundVideo = React.lazy(() =>
   import("../components/BackgroundVideo/BackgroundVideo")
 )
@@ -50,9 +48,9 @@ const IndexPage = () => {
           breathtaking views that our stunning sea offers."
           />
         </div>
-        <Suspense fallback={<div>Loading...</div>}>
-          <SelectionComponent />
-        </Suspense>
+
+        <SelectionComponent />
+
         <TextComponent
           title="What can we see while diving in Punta Cana?"
           paragraph="Punta Cana is the underwater jewel of the Dominican Republic. The white beaches, lush vegetation and turquoise sea hide exciting adventures and beautiful seascapes. Look for Dive Center near Me or Scuba School near me in your search engine to find our webpage and contact information. When you are diving with us, we take you to the best dive sites of the region, a paradise for shark lovers, wreck enthusiasts, turtles and rays galore! The healthy reefs around this side of the islands are thriving with marvelous creatures and colorful corals. Shallow reefs here receive sunlight all year round and have the perfect conditions for hard corals to grow beautiful and vigorous: we can see brain corals, labyrinth corals, whip corals, fan corals, acroporas, porites, millepora and pillar corals."
