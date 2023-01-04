@@ -39,7 +39,7 @@ export const courses = [
       "This is a one-day PADI program that offers you the experience of Scuba diving from 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.",
     overview: {
       level: "Beginner",
-      price: 95,
+      price: 100,
       duration: "2.5 Hours",
     },
     photos: [
@@ -93,7 +93,7 @@ export const courses = [
       "The open water portion of the course consists of 2 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 2 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Beginner",
-      price: 300,
+      price: 340,
       duration: "3 - 2.5 Hours sessions",
       extra: "Over 2 days",
     },
@@ -148,7 +148,7 @@ export const courses = [
       "The open water portion of the course consists of 4 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 4 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Beginner",
-      price: 430,
+      price: 450,
       duration: "5 - 2.5 Hours sessions",
       extra: "Over 3 days",
     },
