@@ -92,7 +92,7 @@ const sitemap = () => {
             <br />
             Total pages: 13
           </span>
-          <a style={h3aStyle} href="https://grandbay-2.netlify.app">
+          <a style={h3aStyle} href="https://www.grandbay-puntacana.com/">
             grandbay-2.netlify.app Homepage
           </a>
         </h3>
@@ -108,10 +108,10 @@ const sitemap = () => {
 
           <li style={lastPageStyle} class="lpage last-page">
             <a
-              href="https://grandbay-2.netlify.app/"
-              title="https://grandbay-2.netlify.app/"
+              href="https://www.grandbay-puntacana.com/"
+              title="https://www.grandbay-puntacana.com/"
             >
-              https://grandbay-2.netlify.app/
+              https://www.grandbay-puntacana.com/
             </a>
           </li>
           <li>
@@ -125,10 +125,10 @@ const sitemap = () => {
 
               <li style={lastPageStyle} class="lpage last-page">
                 <a
-                  href="https://grandbay-2.netlify.app/contact/"
-                  title="https://grandbay-2.netlify.app/contact/"
+                  href="https://www.grandbay-puntacana.com/contact/"
+                  title="https://www.grandbay-puntacana.com/contact/"
                 >
-                  https://grandbay-2.netlify.app/contact/
+                  https://www.grandbay-puntacana.com/contact/
                 </a>
               </li>
             </ul>
@@ -142,42 +142,42 @@ const sitemap = () => {
 
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/courses/"
-                  title="https://grandbay-2.netlify.app/courses/"
+                  href="https://www.grandbay-puntacana.com/courses/"
+                  title="https://www.grandbay-puntacana.com/courses/"
                 >
-                  https://grandbay-2.netlify.app/courses/
+                  https://www.grandbay-puntacana.com/courses/
                 </a>
               </li>
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/courses/discover"
-                  title="https://grandbay-2.netlify.app/courses/discover"
+                  href="https://www.grandbay-puntacana.com/courses/discover"
+                  title="https://www.grandbay-puntacana.com/courses/discover"
                 >
-                  https://grandbay-2.netlify.app/courses/discover
+                  https://www.grandbay-puntacana.com/courses/discover
                 </a>
               </li>
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/courses/scubadiver"
-                  title="https://grandbay-2.netlify.app/courses/scubadiver"
+                  href="https://www.grandbay-puntacana.com/courses/scubadiver"
+                  title="https://www.grandbay-puntacana.com/courses/scubadiver"
                 >
-                  https://grandbay-2.netlify.app/courses/scubadiver
+                  https://www.grandbay-puntacana.com/courses/scubadiver
                 </a>
               </li>
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/courses/openwater"
-                  title="https://grandbay-2.netlify.app/courses/openwater"
+                  href="https://www.grandbay-puntacana.com/courses/openwater"
+                  title="https://www.grandbay-puntacana.com/courses/openwater"
                 >
-                  https://grandbay-2.netlify.app/courses/openwater
+                  https://www.grandbay-puntacana.com/courses/openwater
                 </a>
               </li>
               <li style={lastPageStyle} class="lpage last-page">
                 <a
-                  href="https://grandbay-2.netlify.app/courses/advanced"
-                  title="https://grandbay-2.netlify.app/courses/advanced"
+                  href="https://www.grandbay-puntacana.com/courses/advanced"
+                  title="https://www.grandbay-puntacana.com/courses/advanced"
                 >
-                  https://grandbay-2.netlify.app/courses/advanced
+                  https://www.grandbay-puntacana.com/courses/advanced
                 </a>
               </li>
             </ul>
@@ -191,10 +191,10 @@ const sitemap = () => {
 
               <li style={lastPageStyle} class="lpage last-page">
                 <a
-                  href="https://grandbay-2.netlify.app/sites/"
-                  title="https://grandbay-2.netlify.app/sites/"
+                  href="https://www.grandbay-puntacana.com/sites/"
+                  title="https://www.grandbay-puntacana.com/sites/"
                 >
-                  https://grandbay-2.netlify.app/sites/
+                  https://www.grandbay-puntacana.com/sites/
                 </a>
               </li>
             </ul>
@@ -208,10 +208,27 @@ const sitemap = () => {
 
               <li style={lastPageStyle} class="lpage last-page">
                 <a
-                  href="https://grandbay-2.netlify.app/species/"
-                  title="https://grandbay-2.netlify.app/species/"
+                  href="https://www.grandbay-puntacana.com/species/"
+                  title="https://www.grandbay-puntacana.com/species/"
                 >
-                  https://grandbay-2.netlify.app/species/
+                  https://www.grandbay-puntacana.com/species/
+                </a>
+              </li>
+            </ul>
+            <ul style={ulStyle} class="level-1">
+              <li style={lHeadStyle} class="lhead">
+              scuba-diving-punta-cana/{" "}
+                <span style={lCountStyle} class="lcount">
+                  1 pages
+                </span>
+              </li>
+
+              <li style={lastPageStyle} class="lpage last-page">
+                <a
+                  href="https://www.grandbay-puntacana.com/scuba-diving-punta-cana/"
+                  title="https://www.grandbay-puntacana.com/scuba-diving-punta-cana/"
+                >
+                  https://www.grandbay-puntacana.com/scuba-diving-punta-cana/
                 </a>
               </li>
             </ul>
@@ -225,34 +242,34 @@ const sitemap = () => {
 
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/trips/"
-                  title="https://grandbay-2.netlify.app/trips/"
+                  href="https://www.grandbay-puntacana.com/trips/"
+                  title="https://www.grandbay-puntacana.com/trips/"
                 >
-                  https://grandbay-2.netlify.app/trips/
+                  https://www.grandbay-puntacana.com/trips/
                 </a>
               </li>
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/trips/catalina"
-                  title="https://grandbay-2.netlify.app/trips/catalina"
+                  href="https://www.grandbay-puntacana.com/trips/catalina"
+                  title="https://www.grandbay-puntacana.com/trips/catalina"
                 >
-                  https://grandbay-2.netlify.app/trips/catalina
+                  https://www.grandbay-puntacana.com/trips/catalina
                 </a>
               </li>
               <li style={lPageStyle} class="lpage">
                 <a
-                  href="https://grandbay-2.netlify.app/trips/saona"
-                  title="https://grandbay-2.netlify.app/trips/saona"
+                  href="https://www.grandbay-puntacana.com/trips/saona"
+                  title="https://www.grandbay-puntacana.com/trips/saona"
                 >
-                  https://grandbay-2.netlify.app/trips/saona
+                  https://www.grandbay-puntacana.com/trips/saona
                 </a>
               </li>
               <li style={lastPageStyle} class="lpage last-page">
                 <a
-                  href="https://grandbay-2.netlify.app/trips/bayahibe"
-                  title="https://grandbay-2.netlify.app/trips/bayahibe"
+                  href="https://www.grandbay-puntacana.com/trips/bayahibe"
+                  title="https://www.grandbay-puntacana.com/trips/bayahibe"
                 >
-                  https://grandbay-2.netlify.app/trips/bayahibe
+                  https://www.grandbay-puntacana.com/trips/bayahibe
                 </a>
               </li>
             </ul>
