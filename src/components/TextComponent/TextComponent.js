@@ -27,9 +27,9 @@ const TextComponent = ({ title, paragraph, className }) => {
         }}
         className="flex flex-col items-center justify-center text-center max-w-6xl mx-5 md:p-6 lg:p-2 xl:mx-auto"
       >
-        <h5 className={`text-2xl font-semibold mb-5 ${className} md:text-4xl`}>
+        <h1 className={`text-2xl font-semibold mb-5 ${className} md:text-4xl`}>
           {title}
-        </h5>
+        </h1>
         <p
           className="md:text-xl lg:mt-5"
           dangerouslySetInnerHTML={{ __html: paragraph }}
