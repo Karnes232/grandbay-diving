@@ -19,15 +19,21 @@ const Sitemap = () => {
           <p className="footerSitemap">Dive Trips</p>
         </Link>
       </div>
-      <div className="mx-8 flex flex-col justify-around pb-4 md:pt-4 md:mx-auto md:max-w-2xl md:flex-row">
+      <div className="mx-8 flex flex-col justify-around  md:pt-4 md:mx-auto md:max-w-2xl md:flex-row">
         <Link to="/species">
           <p className="footerSitemap">Species Guide</p>
         </Link>
+        
         <Link to="/contact">
           <p className="footerSitemap">Contact Us</p>
         </Link>
         <Link to="/sitemap">
           <p className="footerSitemap">Site Map</p>
+        </Link>
+      </div>
+      <div className="mx-8 flex flex-col justify-around pb-4 md:pt-4 md:mx-auto md:max-w-2xl md:flex-row">
+      <Link to="/scuba-diving-punta-cana">
+          <p className="footerSitemap">Scuba Diving Punta Cana</p>
         </Link>
       </div>
     </div>
