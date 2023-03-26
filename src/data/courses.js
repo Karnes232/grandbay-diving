@@ -93,7 +93,7 @@ export const courses = [
       "The open water portion of the course consists of 2 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 2 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Beginner",
-      price: 340,
+      price: 380,
       duration: "3 - 2.5 Hours sessions",
       extra: "Over 2 days",
     },
@@ -148,7 +148,7 @@ export const courses = [
       "The open water portion of the course consists of 4 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 4 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Beginner",
-      price: 450,
+      price: 470,
       duration: "5 - 2.5 Hours sessions",
       extra: "Over 3 days",
     },
@@ -203,7 +203,7 @@ export const courses = [
       "Also think about buoyancy control, fish identification, boat diving, underwater photo / video (especially if you have a GoPro or underwater camera already) or maybe enriched air (Nitrox) to expand your bottom time.",
     overview: {
       level: "Intermediate",
-      price: 360,
+      price: 400,
       duration: "5 - 2.5 Hours sessions",
       extra: "Over 3 days",
     },
