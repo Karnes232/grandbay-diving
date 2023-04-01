@@ -11,7 +11,8 @@ import SEO from '../components/seo'
 import SharkOverview from '../components/LocalDives/SharkOverview'
 
 const sharkDive = ({ location }) => {
-  const sharkInfo = shark.find(({ link }) => link === location.pathname)
+  const sharkInfo = shark[0]
+  console.log(sharkInfo)
   return (
     <Layout>
         <Helment>
