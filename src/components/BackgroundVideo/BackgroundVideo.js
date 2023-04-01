@@ -11,7 +11,6 @@ const BackroundVideo = ({ video, className }) => {
           loop
           playsInline
           src={video}
-          preload="none"
         >
           <source src={video} type="video/mp4" />
           Your device does not support playing 'video/mp4' videos
