@@ -36,7 +36,7 @@ const CardComponent = ({ id, name, img, depth, desc }) => {
           <h5 className="text-gray-900 text-xl font-medium mb-2">
             {name === "Shark Point" ? (
               <Link to="/shark-dive-punta-cana" className="no-underline">
-                Shark Dive
+                {name}
               </Link>
             ) : (
               name
