@@ -4,7 +4,7 @@ import { shark } from "../data/shark"
 import Layout from '../components/layout'
 import BackgroundVideo from '../components/BackgroundVideo/BackgroundVideo'
 import videoAdvanced from "../video/greyshark.mp4"
-import sharkVideo from '../video/sharkVideo2.mp4'
+import sharkVideo from '../video/sharkVideo.mp4'
 import TextComponent from '../components/TextComponent/TextComponent'
 import SEO from '../components/seo'
 import SharkOverview from '../components/LocalDives/SharkOverview'
