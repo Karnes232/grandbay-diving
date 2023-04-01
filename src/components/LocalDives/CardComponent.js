@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import { motion } from "framer-motion"
+import { Link } from "gatsby"
 const CardComponent = ({ id, name, img, depth, desc }) => {
   const [readMore, setReadMore] = useState(false)
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,13 +17,31 @@ const CardComponent = ({ id, name, img, depth, desc }) => {
       className="flex justify-center m-4 w-80"
     >
       <div className="rounded-lg shadow-lg bg-white max-w-sm">
-        <img
-          className="rounded-t-lg h-64 w-80 object-cover object-center"
-          src={img}
-          alt={name}
-        />
+        {name === "Shark Point" ? (
+          <Link to="/shark-dive-punta-cana" className="no-underline">
+            <img
+              className="rounded-t-lg h-64 w-80 object-cover object-center"
+              src={img}
+              alt={name}
+            />
+          </Link>
+        ) : (
+          <img
+            className="rounded-t-lg h-64 w-80 object-cover object-center"
+            src={img}
+            alt={name}
+          />
+        )}
         <div className="p-6">
-          <h5 className="text-gray-900 text-xl font-medium mb-2">{name}</h5>
+          <h5 className="text-gray-900 text-xl font-medium mb-2">
+            {name === "Shark Point" ? (
+              <Link to="/shark-dive-punta-cana" className="no-underline">
+                Shark Dive
+              </Link>
+            ) : (
+              name
+            )}
+          </h5>
           {depth && <p className="text-lg text-gray-700 mb-2">{depth}</p>}
           {desc && (
             <p className="text-gray-700 text-base mb-4">

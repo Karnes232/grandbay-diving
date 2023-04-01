@@ -1,13 +1,13 @@
-import React, { Suspense } from 'react'
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import { shark } from "../data/shark"
-import Layout from '../components/layout'
-import BackgroundVideo from '../components/BackgroundVideo/BackgroundVideo'
+import Layout from "../components/layout"
+import BackgroundVideo from "../components/BackgroundVideo/BackgroundVideo"
 import videoAdvanced from "../video/greyshark.mp4"
-import sharkVideo from '../video/sharkVideo.mp4'
-import TextComponent from '../components/TextComponent/TextComponent'
-import SEO from '../components/seo'
-import SharkOverview from '../components/LocalDives/SharkOverview'
+import sharkVideo from "../video/sharkVideo.mp4"
+import TextComponent from "../components/TextComponent/TextComponent"
+import SEO from "../components/seo"
+import SharkOverview from "../components/LocalDives/SharkOverview"
 
 const BackgroundCarousel = React.lazy(() =>
   import("../components/BackgroundCarousel/BackgroundCarousel")
@@ -18,7 +18,7 @@ const sharkDive = ({ location }) => {
   console.log(sharkInfo)
   return (
     <Layout>
-        <Helment>
+      <Helment>
         <link
           rel="canonical"
           href={`https://www.grandbay-puntacana.com${location.pathname}`}
@@ -34,10 +34,10 @@ const sharkDive = ({ location }) => {
         keywords="shark diving in punta cana, Punta Cana shark diving, scuba diving in punta cana, punta cana dive sites, punta cana scuba diving, punta cana excursions, diving punta cana"
       />
       <BackgroundVideo
-              video={videoAdvanced}
-              className="bg-video-courses shark-video"
-            />
-    {sharkInfo && (
+        video={videoAdvanced}
+        className="bg-video-courses shark-video"
+      />
+      {sharkInfo && (
         <div className="my-5">
           <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl xl:h-[35rem]">
             <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
@@ -47,7 +47,7 @@ const sharkDive = ({ location }) => {
               />
             </div>
             <div className="lg:w-[45rem] xl:mx-10 lg:min-h-full lg:flex lg:flex-col md:justify-center">
-              <SharkOverview shark={sharkInfo}/>
+              <SharkOverview shark={sharkInfo} />
             </div>
             <div className="lg:flex lg:flex-col lg:justify-start lg:mt-5 xl:min-h-full xl:justify-center xl:mt-0">
               <TextComponent
@@ -68,7 +68,7 @@ const sharkDive = ({ location }) => {
               <div className="flex flex-col max-w-6xl">
                 <div className="lg:flex xl:space-x-4">
                   <TextComponent paragraph={sharkInfo.details} />
-                  
+
                   <TextComponent paragraph={sharkInfo.details2} />
                 </div>
                 <hr className="mt-5 border-2 border-blue-500 w-52 mx-auto" />
@@ -79,7 +79,6 @@ const sharkDive = ({ location }) => {
               </div>
             </div>
           )}
-          
         </div>
       )}
       <div className="">

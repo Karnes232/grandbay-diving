@@ -217,7 +217,7 @@ const sitemap = () => {
             </ul>
             <ul style={ulStyle} class="level-1">
               <li style={lHeadStyle} class="lhead">
-              scuba-diving-punta-cana/{" "}
+                scuba-diving-punta-cana/{" "}
                 <span style={lCountStyle} class="lcount">
                   1 pages
                 </span>

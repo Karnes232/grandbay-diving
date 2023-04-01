@@ -19,6 +19,11 @@ const LocalDivesOverview = () => {
         <p className="my-1 text-sm md:text-base xl:text-lg">
           4 Tank Package: $200
         </p>
+        <p className="my-1 text-sm md:text-base xl:text-lg">
+          <Link to="/shark-dive-punta-cana" className="no-underline">
+            Shark Dive: $170
+          </Link>
+        </p>
 
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Other packages available upon request

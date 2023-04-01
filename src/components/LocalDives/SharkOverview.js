@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import CustomPayPal from "../PayPalButtonWrapper/CustomPayPal"
 import { motion } from "framer-motion"
-const SharkOverview = ({shark}) => {
+const SharkOverview = ({ shark }) => {
   return (
     <div className="my-5">
       {" "}
@@ -19,7 +19,6 @@ const SharkOverview = ({shark}) => {
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Advanced Certification Required
         </p>
-
       </div>
       <div className="flex justify-center w-[200px] h-[35px] mx-auto">
         <Link to="/contact" className="no-underline w-[200px] h-[35px]">
