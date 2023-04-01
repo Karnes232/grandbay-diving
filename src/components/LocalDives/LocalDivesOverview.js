@@ -14,9 +14,6 @@ const LocalDivesOverview = () => {
           2 Tank Dive: $120 per person
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
-          2 Tank Dive (Shark Point): $150 per person
-        </p>
-        <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: 2.5 Hours
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
