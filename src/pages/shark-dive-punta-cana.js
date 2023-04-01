@@ -6,9 +6,12 @@ import BackgroundVideo from '../components/BackgroundVideo/BackgroundVideo'
 import videoAdvanced from "../video/greyshark.mp4"
 import sharkVideo from '../video/sharkVideo2.mp4'
 import TextComponent from '../components/TextComponent/TextComponent'
-import BackgroundCarousel from '../components/BackgroundCarousel/BackgroundCarousel'
 import SEO from '../components/seo'
 import SharkOverview from '../components/LocalDives/SharkOverview'
+
+const BackgroundCarousel = React.lazy(() =>
+  import("../components/BackgroundCarousel/BackgroundCarousel")
+)
 
 const sharkDive = ({ location }) => {
   const sharkInfo = shark[0]
