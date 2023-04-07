@@ -4,7 +4,7 @@ import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import TextComponent from "../../components/TextComponent/TextComponent"
-
+import { StaticImage } from "gatsby-plugin-image"
 import video from "../../video/scubaHero.mp4"
 
 const BackgroundVideo = React.lazy(() =>
@@ -43,6 +43,33 @@ const courses = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <CourseCardGroup />
       </Suspense>
+      <div className="flex flex-col items-center justify-center mb-5">
+        <StaticImage
+          src="../../images/ssi-banner.png"
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+          className="w-10/12 lg:w-1/2 mb-8"
+          objectFit="contain"
+        />
+        <iframe
+          scrolling="no"
+          src="//my.divessi.com/extern/recent_certs.php/810013/2/100P/h/3/300/500"
+          frameborder="0"
+          name="SSI - We conduct the following Programs"
+          id="ourCertRules"
+        >
+          <p>
+            <a
+              href="//my.divessi.com/extern/recent_certs.php/810013/2/100P/h/4/300/500"
+              target="ssi"
+            >
+              SSI - We conduct the following Programs
+            </a>
+          </p>
+        </iframe>
+      </div>
       <TextComponent
         title="What if I am already certified?"
         paragraph="Scuba Classes in Punta Cana are also for those that are already certified as Padi Open Water Divers but want to advance in their career and learn more: our <a href='/courses/advanced'>PADI Advanced Open Water</a> course is the perfect choice for certified divers looking for exciting and complete Scuba Diving Packages while learning new techniques. During your Padi Advanced Open Water certification you will learn how to safely perform deep dives, navigation dives, wreck dives, night dives, drift dives and many more. The reefs and wrecks around our extremely beautiful area are the perfect training gym for all these types of advanced dives. Last but not least, some further experiences and trainings are available upon request in our Dive Center in Punta Cana. For instance, if you are already an Advanced Open Water Diver, you can have access to your Emergency First Response and Rescue Diver course, or even complete your Divemaster training with us. Several PADI specialties are also available on request, as part of our Scuba Diving Packages in Punta Cana. You can contact us before your trip to arrange a personalized schedule that suits your needs and timings, without affecting the high standards of our training, and preparing you for a lifetime of underwater magic!"
