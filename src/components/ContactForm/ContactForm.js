@@ -19,7 +19,7 @@ const ContactForm = () => {
       <form
         name="contact"
         method="POST"
-        action="/shark-dive-punta-cana"
+        action="/thankyou"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         id="contact"
