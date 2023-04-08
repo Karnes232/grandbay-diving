@@ -34,7 +34,7 @@ const IndexPage = () => {
         <div className="mt-[50vh] md:mt-[40vh] lg:mt-[70vh]">
           <TextComponent
             title="Explore a Whole New World!"
-            paragraph="Welcome to Grand Bay of the Sea, your PADI Dive Center in Punta Cana,
+            paragraph="Welcome to Grand Bay of the Sea, your PADI & SSI Dive Center in Punta Cana,
           where our long-standing experience meets the beauty of the underwater
           world in our gorgeous area, for a memorable diving experience in the
           best reefs of Dominican Republic. This is the place where any scuba

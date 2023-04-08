@@ -13,9 +13,17 @@ const CourseOverview = ({ course }) => {
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Course Level: {course.overview.level}
         </p>
-        <p className="my-1 text-sm md:text-base xl:text-lg">
-          Price: ${course.overview.price} per person
+        {course.overview.pricePadi && (
+          <p className="my-1 text-sm md:text-base xl:text-lg">
+          PADI Price: ${course.overview.pricePadi} per person
         </p>
+        )}
+        {course.overview.price && (
+          <p className="my-1 text-sm md:text-base xl:text-lg">
+          SSI Price: ${course.overview.price} per person
+        </p>
+        )}
+        
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: {course.overview.duration}
         </p>

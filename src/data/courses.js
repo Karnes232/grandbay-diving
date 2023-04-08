@@ -36,7 +36,7 @@ export const courses = [
     paragraph:
       "If you would like to give diving a try, but don’t really know if you’re going to like it, or simply don’t want to invest a lot of time in a full course, we are pleased to offer a number of options that let you get your hair wet and experience the underwater world.",
     paragraph2:
-      "This is a one-day PADI program that offers you the experience of Scuba diving from 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.",
+      "This is a one-day program that offers you the experience of Scuba diving from 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.",
     overview: {
       level: "Beginner",
       price: 100,
@@ -131,13 +131,13 @@ export const courses = [
     id: 3,
     link: "/courses/openwater",
     name: "Open Water Diver",
-    title: "Padi Open Water Course",
+    title: "Open Water Diver",
     title2:
       "What can you expect from this beginner’s Scuba Diving course in the Dominican?",
     paragraph:
       "This is a 3-day diving course which will allow you to dive down to a maximum of 18 meters / 60 feet anywhere in the world. The course consists of 3 sections – online dive theory, confined swimming pool sessions and 4 Open Water dives.",
     paragraph2:
-      "The PADI E-Learning is a new product from PADI that makes the dive theory very easy to complete and can be downloaded on any Apple or Android device before you even arrive on Punta Cana or on the beach here, which leaves more free time for you on your vacation.",
+      "The E-Learning is a new product that makes the dive theory very easy to complete and can be downloaded on any Apple or Android device before you even arrive on Punta Cana or on the beach here, which leaves more free time for you on your vacation.",
     details:
       "On your first day of the course your instructor will do a review with you of your theory and then you will get acquainted with the equipment before starting the confined pool session.",
     details2:
@@ -148,7 +148,8 @@ export const courses = [
       "The open water portion of the course consists of 4 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 4 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Beginner",
-      price: 470,
+      pricePadi: 470,
+      price: 430,
       duration: "5 - 2.5 Hours sessions",
       extra: "Over 3 days",
     },
@@ -186,24 +187,25 @@ export const courses = [
     id: 4,
     link: "/courses/advanced",
     name: "Advanced Open Water Diver",
-    title: "PADI Advanced Open Water Course",
+    title: "Advanced Open Water Diver",
     title2:
-      "What can you expect from this PADI Advanced Open Water course in the Dominican?",
+      "What can you expect from this Advanced Open Water course in the Dominican?",
     paragraph:
       "In Open Water, you learned the basics of how to scuba dive. In Advanced, you are fine tuning your skills, and learning how to be a diver. You will gain more experience, and try some different diving specialites under the supervision of an instructor.",
     paragraph2:
-      "You can enroll immediately after earning your PADI Open Water Diver certification regardless of your skill level. The course helps you build confidence in navigation, fine-tune buoyancy skills and introduces you to different diving activities such as wreck diving.",
+      "You can enroll immediately after earning your Open Water Diver certification regardless of your skill level. The course helps you build confidence in navigation, fine-tune buoyancy skills and introduces you to different diving activities such as wreck diving.",
     details:
       "During the Deep Dive (up to 30 meter / 100 feet), you learn how to plan dives to deal with the physiological effects and challenges of deeper scuba diving.",
     details2:
       "The Underwater Navigation Adventure Dive refines your compass navigation skills and helps you better navigate using kick-cycles, visual landmarks and time.",
     details3:
-      "While Deep Diving and Underwater Navigation are mandatory, together with your dive instructor, you can choose 3 other adventure dives to gain the PADI Advanced Open Water Diver certification. One of the top choices for our students is the Wreck Dive, where we visit Wreck Monica",
+      "While Deep Diving and Underwater Navigation are mandatory, together with your dive instructor, you can choose 3 other adventure dives to gain the Advanced Open Water Diver certification. One of the top choices for our students is the Wreck Dive, where we visit Wreck Monica",
     details4:
       "Also think about buoyancy control, fish identification, boat diving, underwater photo / video (especially if you have a GoPro or underwater camera already) or maybe enriched air (Nitrox) to expand your bottom time.",
     overview: {
       level: "Intermediate",
-      price: 400,
+      pricePadi: 400,
+      price: 370,
       duration: "5 - 2.5 Hours sessions",
       extra: "Over 3 days",
     },
