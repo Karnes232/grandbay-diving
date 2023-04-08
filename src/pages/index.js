@@ -60,26 +60,27 @@ const IndexPage = () => {
           <BackgroundVideo video={video} className="bg-video-main" />
         </Suspense>
         <div className="max-w-6xl m-auto">
-        <div className="flex flex-col lg:flex-row items-center justify-center mt-8">
-        <StaticImage
-          src="../images/ssi-banner.png"
-          loading="eager"
-          quality={100}
-          formats={["auto", "webp", "avif"]}
-          alt=""
-          className="w-10/12 lg:w-1/2 mb-8"
-          objectFit="contain"
-        />
-        <StaticImage
-          src="../images/padi-banner.png"
-          loading="eager"
-          quality={100}
-          formats={["auto", "webp", "avif"]}
-          alt=""
-          className="w-10/12 lg:w-1/2 mb-8"
-          objectFit="cover"
-        />
-        </div></div>
+          <div className="flex flex-col lg:flex-row items-center justify-center mt-8">
+            <StaticImage
+              src="../images/ssi-banner.png"
+              loading="eager"
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+              className="w-10/12 lg:w-1/2 mb-8"
+              objectFit="contain"
+            />
+            <StaticImage
+              src="../images/padi-banner.png"
+              loading="eager"
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+              className="w-10/12 lg:w-1/2 mb-8"
+              objectFit="cover"
+            />
+          </div>
+        </div>
         <div className="lg:h-[20rem] lg:flex lg:items-center lg:justify-center">
           <TextComponent
             title="About Us"
