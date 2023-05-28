@@ -17,6 +17,7 @@ const LinksComponent = ({ name, url, description, image, textColor }) => {
         <img
           src={image}
           alt={name}
+          loading="lazy"
           className="h-24 w-24 md:h-36 md:w-36 object-cover my-2 rounded-full border-solid border-[1px] border-black"
         />
       </div>
