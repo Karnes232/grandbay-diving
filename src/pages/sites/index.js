@@ -58,12 +58,11 @@ export default index
 export const Head = () => (
   <>
     <title>
-      Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba
-      Certification Punta Cana | Padi Scuba Diving Punta Cana
+    Grand Bay of the Sea | Scuba Diving Packages | Punta Cana | Dominican Republic 
     </title>
     <meta
       name="description"
-      content="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away."
+      content="We offer a wide range of dive trip packages in Punta Cana .Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Dive In Punta Cana Give us a call right away"
     />
   </>
 )

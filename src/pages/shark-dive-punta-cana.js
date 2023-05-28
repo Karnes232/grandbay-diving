@@ -94,3 +94,16 @@ const sharkDive = ({ location }) => {
 }
 
 export default sharkDive
+
+
+export const Head = () => (
+  <>
+    <title>
+    Shark Diving in Punta Cana | Shark Dive Punta Cana | Grand Bay of the Sea
+    </title>
+    <meta
+      name="description"
+      content="Look no further than Grand Bay of the Sea's shark diving tours in Punta Cana! Our tours offer thrilling opportunities to dive to depths of up to 25 meters and encounter a variety of shark species in their natural habitat."
+    />
+  </>
+)

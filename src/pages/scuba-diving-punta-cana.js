@@ -79,12 +79,11 @@ export default Scuba
 export const Head = () => (
   <>
     <title>
-      Grand Bay of the Sea | Scuba Diving Punta Cana | Shark Dive Punta Cana |
-      Dive Center Near Me | Scuba Diving in Punta Cana made easy
+    Punta Cana Scuba Diving | Scuba Diving In Punta Cana | Scuba Diving Dominican Republic | Scuba Diving Punta Cana Made Easy
     </title>
     <meta
       name="description"
-      content="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now."
+      content="Scuba diving in Punta Cana is like exploring a brand new world. Every diver can find an adventure that's perfect for them, whether it's shark diving or taking a PADI Open Water certification course."
     />
   </>
 )

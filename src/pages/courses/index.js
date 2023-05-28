@@ -84,12 +84,11 @@ export default courses
 export const Head = () => (
   <>
     <title>
-      Padi Course In Punta Cana | Scuba Classes | Scuba Diving in Punta Cana |
-      Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana
+    Padi Course In Punta Cana | Certified Dive Course Punta Cana | Scuba Classes | Diving Training Center | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana
     </title>
     <meta
       name="description"
-      content="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana."
+      content="We provide Scuba Classes in Punta Cana Learn Certified Dive In Punta Cana Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana"
     />
   </>
 )
