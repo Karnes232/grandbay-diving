@@ -59,6 +59,7 @@ const courses = () => {
           frameborder="0"
           name="SSI - We conduct the following Programs"
           id="ourCertRules"
+          title="SSI"
         >
           <p>
             <a
