@@ -95,11 +95,10 @@ const sharkDive = ({ location }) => {
 
 export default sharkDive
 
-
 export const Head = () => (
   <>
     <title>
-    Shark Diving in Punta Cana | Shark Dive Punta Cana | Grand Bay of the Sea
+      Shark Diving in Punta Cana | Shark Dive Punta Cana | Grand Bay of the Sea
     </title>
     <meta
       name="description"

@@ -79,7 +79,8 @@ export default Scuba
 export const Head = () => (
   <>
     <title>
-    Punta Cana Scuba Diving | Scuba Diving In Punta Cana | Scuba Diving Dominican Republic | Scuba Diving Punta Cana Made Easy
+      Punta Cana Scuba Diving | Scuba Diving In Punta Cana | Scuba Diving
+      Dominican Republic | Scuba Diving Punta Cana Made Easy
     </title>
     <meta
       name="description"

@@ -58,7 +58,8 @@ export default index
 export const Head = () => (
   <>
     <title>
-    Grand Bay of the Sea | Scuba Diving Packages | Punta Cana | Dominican Republic 
+      Grand Bay of the Sea | Scuba Diving Packages | Punta Cana | Dominican
+      Republic
     </title>
     <meta
       name="description"
