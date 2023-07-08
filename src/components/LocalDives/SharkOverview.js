@@ -16,7 +16,7 @@ const SharkOverview = ({ shark }) => {
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: 2.5 Hours
         </p>
-        <p className="my-1 text-sm md:text-base xl:text-lg">
+        <p className="my-1 text-sm md:text-base xl:text-lg text-center">
           Advanced Certification Required
         </p>
       </div>
