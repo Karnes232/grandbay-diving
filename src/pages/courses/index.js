@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react"
+import React, { Suspense } from "react"
 import Helment from "react-helmet"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import Layout from "../../components/layout"
