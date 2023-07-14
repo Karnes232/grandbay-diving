@@ -27,7 +27,10 @@ const IndexPage = () => {
           name="google-site-verification"
           content="QNQfgD0iQIbuHkuZ5fb8hKEYbV6iCN_TvIyRdnAu7yg"
         />
-        <meta name="google-site-verification" content="_73Leg9k9ryZXyP10IC8Nb2dxu3mfjpQG_zxN69KQCs" />
+        <meta
+          name="google-site-verification"
+          content="_73Leg9k9ryZXyP10IC8Nb2dxu3mfjpQG_zxN69KQCs"
+        />
       </Helment>
       <Seo schemaMarkup={schema} />
       <main>

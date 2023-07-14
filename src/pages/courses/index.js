@@ -56,7 +56,7 @@ const courses = () => {
         <iframe
           scrolling="no"
           src="//my.divessi.com/extern/recent_certs.php/810013/2/100P/h/3/300/500"
-          frameborder="0"
+          frameBorder="0"
           name="SSI - We conduct the following Programs"
           id="ourCertRules"
           title="SSI"
@@ -75,6 +75,32 @@ const courses = () => {
         title="What if I am already certified?"
         paragraph="Scuba Classes in Punta Cana are also for those that are already certified as Padi Open Water Divers but want to advance in their career and learn more: our <a href='/courses/advanced'>PADI Advanced Open Water</a> course is the perfect choice for certified divers looking for exciting and complete Scuba Diving Packages while learning new techniques. During your Padi Advanced Open Water certification you will learn how to safely perform deep dives, navigation dives, wreck dives, night dives, drift dives and many more. The reefs and wrecks around our extremely beautiful area are the perfect training gym for all these types of advanced dives. Last but not least, some further experiences and trainings are available upon request in our Dive Center in Punta Cana. For instance, if you are already an Advanced Open Water Diver, you can have access to your Emergency First Response and Rescue Diver course, or even complete your Divemaster training with us. Several PADI specialties are also available on request, as part of our Scuba Diving Packages in Punta Cana. You can contact us before your trip to arrange a personalized schedule that suits your needs and timings, without affecting the high standards of our training, and preparing you for a lifetime of underwater magic!"
       />
+      <div className="my-5 mx-5 max-w-6xl md:mx-auto flex flex-col justify-center items-center">
+      <StaticImage
+              src="../images/padi-banner.png"
+              loading="eager"
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+              className="w-10/12 md:h-40 mb-8"
+              objectFit="cover"
+            />
+      <iframe
+        title="PADI"
+        className="diviac-iframe md:w-[45rem]"
+        id="diviac-iframe"
+        scrolling="yes"
+        width="100%"
+        height="100%"
+        style={{ Border: 0, margin: 0, padding: 0, minHeight: "50vh" }}
+        src="https://travel.padi.com/widget/dive-operator/grand-bay-of-the-sea/adventures/?products=30&aid=27147&utm_campaign=ww-all-travel-pros-affiliates_shops-widgets&utm_medium=widget&utm_source=affiliate_27147&language=en&currency_code=USD&utm_content=search_iframe"
+        data-iframe-type="adventures"
+        data-shop-slug="grand-bay-of-the-sea"
+        data-shop-id="75625"
+        data-widget-type="iframe"
+      ></iframe>
+      </div>
+      <script src="https://travel.padi.com/widget/padi-iframe.js"></script>
       <div className="mt-5"></div>
     </Layout>
   )

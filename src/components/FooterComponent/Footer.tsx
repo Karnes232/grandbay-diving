@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="mx-5 flex max-w-6xl flex-col justify-between xl:mx-auto">
         <SocialMedia />
         <Sitemap />
-        {/* <TrustBadges /> */}
+        <TrustBadges />
         <div className="flex flex-col justify-between md:flex-row">
           <Copyright />
-       </div>
+        </div>
       </div>
     </footer>
   )
