@@ -67,7 +67,7 @@ const IndexPage = () => {
               quality={100}
               formats={["auto", "webp", "avif"]}
               alt=""
-              className="w-10/12 lg:w-1/2 mb-8"
+              className="w-10/12 md:h-40 lg:w-1/2 mb-8"
               objectFit="contain"
             />
             <StaticImage
@@ -76,7 +76,7 @@ const IndexPage = () => {
               quality={100}
               formats={["auto", "webp", "avif"]}
               alt=""
-              className="w-10/12 lg:w-1/2 mb-8"
+              className="w-10/12 md:h-40 lg:w-1/2 mb-8"
               objectFit="cover"
             />
           </div>

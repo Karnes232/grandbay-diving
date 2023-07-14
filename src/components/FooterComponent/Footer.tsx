@@ -2,6 +2,7 @@ import React from "react"
 import Copyright from "./Copyright"
 import Sitemap from "./Sitemap"
 import SocialMedia from "./SocialMedia"
+import TrustBadges from "./TrustBadges"
 
 const Footer = () => {
   return (
@@ -9,9 +10,10 @@ const Footer = () => {
       <div className="mx-5 flex max-w-6xl flex-col justify-between xl:mx-auto">
         <SocialMedia />
         <Sitemap />
+        {/* <TrustBadges /> */}
         <div className="flex flex-col justify-between md:flex-row">
           <Copyright />
-        </div>
+       </div>
       </div>
     </footer>
   )
