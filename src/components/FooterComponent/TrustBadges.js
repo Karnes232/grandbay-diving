@@ -5,7 +5,7 @@ const TrustBadges = () => {
     <div className="border-b border-gray-500">
       <div className="mx-8 flex flex-col justify-between py-4 md:mx-auto md:max-w-2xl md:items-center">
         <a
-          href="https://www.kayak.com/Punta-Cana.23052.guide"
+          href="https://www.kayak.de/Punta-Cana.23052.guide"
           rel="noreferrer"
           target="_blank"
         >
@@ -17,13 +17,13 @@ const TrustBadges = () => {
           />
         </a>
       </div>
-      <iframe
+      {/* <iframe
         src="https://widgets.sociablekit.com/google-reviews/iframe/167263"
         frameborder="0"
         width="100%"
         height="360"
         title='google reviews'
-      ></iframe>
+      ></iframe> */}
     </div>
   )
 }
