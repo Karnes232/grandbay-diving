@@ -78,7 +78,8 @@ export const trips = [
     link: "/trips/saona",
     name: "Saona Island",
     overview: {
-      price: "Contact for Prices",
+      price: 185,
+      companion: 110,
       duration: "7:30 - 18:00",
       extra: "Lunch included",
       extra2: "Drinks : Alcoholic & Non-Alcoholic included",
