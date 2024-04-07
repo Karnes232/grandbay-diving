@@ -64,16 +64,16 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "GTM-KGLHKQW",
+    // {
+    //   resolve: "gatsby-plugin-google-tagmanager",
+    //   options: {
+    //     id: "GTM-KGLHKQW",
 
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
+    //     includeInDevelopment: false,
+    //     defaultDataLayer: { platform: "gatsby" },
 
-        enableWebVitalsTracking: true,
-      },
-    },
+    //     enableWebVitalsTracking: true,
+    //   },
+    // },
   ],
 }
