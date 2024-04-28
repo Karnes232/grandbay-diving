@@ -33,7 +33,7 @@ export const shark = [
     //   "The open water portion of the course consists of 2 open water dives where you will perform various dive skills both under water and at the surface to make sure that you are a competent and safe diver. We break up the skills over the 2 dives so that you only are doing a few skills each dive and get to spend the majority of your time diving with your instructor and exploring the underwater world.",
     overview: {
       level: "Advanced",
-      price: 170,
+      price: 199,
       duration: "2.5 Hours",
     },
     photos: [
