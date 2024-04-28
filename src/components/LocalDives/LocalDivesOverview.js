@@ -21,7 +21,7 @@ const LocalDivesOverview = () => {
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
           <Link to="/shark-dive-punta-cana" className="no-underline">
-            Shark Dive: $170
+            Shark Dive: $199
           </Link>
         </p>
 
