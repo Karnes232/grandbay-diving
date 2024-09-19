@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="mx-5 flex max-w-6xl flex-col justify-between xl:mx-auto">
         <SocialMedia />
         <Sitemap />
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Loading....</div>}>
           <TrustBadges />
         </Suspense>
         <div className="flex flex-col justify-between md:flex-row">
