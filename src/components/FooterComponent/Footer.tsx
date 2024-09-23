@@ -2,6 +2,7 @@ import React, { Suspense } from "react"
 import Copyright from "./Copyright"
 import Sitemap from "./Sitemap"
 import SocialMedia from "./SocialMedia"
+import Signature from "./Signature"
 
 const TrustBadges = React.lazy(() => import("./TrustBadges"))
 
@@ -18,6 +19,7 @@ const Footer = () => {
           <Copyright />
         </div>
       </div>
+      <Signature />
     </footer>
   )
 }
