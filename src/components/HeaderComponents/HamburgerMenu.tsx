@@ -127,6 +127,21 @@ const HamburgerMenu = () => {
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
+                        <Link to="/fishing-punta-cana" className="no-underline">
+                          <button
+                            className={`${
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700"
+                            } flex justify-between w-full px-4 py-2 text-sm leading-5 text-left`}
+                          >
+                            Deep Sea Fishing
+                          </button>
+                        </Link>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
                         <Link to="/species" className="no-underline">
                           <button
                             className={`${

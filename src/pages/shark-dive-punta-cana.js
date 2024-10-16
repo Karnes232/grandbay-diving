@@ -15,7 +15,6 @@ const BackgroundCarousel = React.lazy(() =>
 
 const sharkDive = ({ location }) => {
   const sharkInfo = shark[0]
-  console.log(sharkInfo)
   return (
     <Layout>
       <Helment>

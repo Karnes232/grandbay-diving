@@ -13,6 +13,11 @@
   clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
   margin-top: -5rem;
 }
+.bg-video-fishing {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
+  margin-top: -5rem;
+}
 
 .bg-video-shark {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 35vh, 0% 100%);
@@ -60,6 +65,10 @@
   .bg-video-shark {
     margin-top: -32rem;
   }
+
+  .bg-video-fishing {
+    margin-top: -10rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -74,11 +83,29 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
   }
+  .bg-video-fishing {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
+  }
   .bg-video-sites {
     -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
     clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
   }
   .bg-video__content {
     height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bg-video-section.bg-video-fishing {
+    min-height: 80vh;
+  }
+  .bg-video__content {
+    height: fit-content;
+    object-position: top;
+  }
+  .bg-video-fishing {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0% 100%);
   }
 }

@@ -20,6 +20,9 @@ const Links = () => {
       <Link to="/shark-dive-punta-cana" className="no-underline">
         <button className="navLinks">Shark Dive</button>
       </Link>
+      <Link to="/fishing-punta-cana" className="no-underline">
+        <button className="navLinks">Deep Sea Fishing</button>
+      </Link>
       <Link to="/contact" className="no-underline">
         <button className="navLinks">Contact Us</button>
       </Link>
