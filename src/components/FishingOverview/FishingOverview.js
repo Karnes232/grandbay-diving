@@ -11,30 +11,19 @@ const FishingOverview = ({ course }) => {
           <strong>Fishing Overview</strong>
         </h4>
         <p className="my-1 text-center text-sm xl:text-base">
-          Price: $110 per person
+          Shared Fishing Charter
         </p>
-        <p className="my-1 text-center text-sm xl:text-base">
-          Shared Deep Sea Fishing Charter
-        </p>
-        <p className="my-1 text-center text-sm xl:text-base">
-          Price: $80 per person
-        </p>
+        <p className="my-1 text-center text-sm xl:text-base">$130 per person</p>
         <p className="my-1 text-center text-sm xl:text-base">Spectator</p>{" "}
-        <p className="my-1 text-center text-sm xl:text-base">
-          Price: $675 per person
-        </p>
+        <p className="my-1 text-center text-sm xl:text-base">$90 per person</p>
         <p className="my-1 text-center text-sm xl:text-base">
           Private Fishing Charter
         </p>
         <p className="my-1 text-center text-sm xl:text-base">
           Duration: 4 Hours
         </p>
-        {/* <p className="my-1 text-center text-sm xl:text-base">
-        {trip.overview.extra}
-      </p>
-      <p className="my-1 text-center text-sm xl:text-base">
-        {trip.overview.extra2}
-      </p> */}
+        <p className="my-1 text-center text-sm xl:text-base">Price: $700</p>
+
       </div>
       <div className="flex justify-center w-[200px] h-[35px] mx-auto">
         <Link to="/contact" className="no-underline w-[200px] h-[35px]">
