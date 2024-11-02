@@ -17,13 +17,13 @@ const TrustBadges = () => {
           />
         </a>
       </div>
-      {/* <iframe
+      <iframe
         src="https://widgets.sociablekit.com/google-reviews/iframe/167263"
         frameborder="0"
         width="100%"
         height="360"
         title='google reviews'
-      ></iframe> */}
+      ></iframe>
     </div>
   )
 }
