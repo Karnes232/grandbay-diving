@@ -25,8 +25,8 @@ export const trips = [
     link: "/trips/catalina",
     name: "Catalina Island",
     overview: {
-      price: 185,
-      companion: 90,
+      price: 220,
+      companion: 100,
       duration: "7:30 - 18:00",
       extra: "Lunch included",
       extra2: "Drinks : Alcoholic & Non-Alcoholic included",
@@ -54,7 +54,7 @@ export const trips = [
     link: "/trips/bayahibe",
     name: "Bayahibe",
     overview: {
-      price: 155,
+      price: 180,
       duration: "7:30 - 16:00",
       extra: "Lunch optional",
       extra2: "Drinks : Alcoholic optional",
@@ -78,7 +78,7 @@ export const trips = [
     link: "/trips/saona",
     name: "Saona Island",
     overview: {
-      price: 185,
+      price: 220,
       companion: 110,
       duration: "7:30 - 18:00",
       extra: "Lunch included",

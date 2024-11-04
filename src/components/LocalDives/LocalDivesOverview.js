@@ -11,13 +11,13 @@ const LocalDivesOverview = () => {
           <strong>Dive Packages</strong>
         </h4>
         <p className="my-1 text-sm md:text-base xl:text-lg">
-          2 Tank Dive: $120 per person
+          2 Tank Dive: $125 per person
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
           Duration: 2.5 Hours
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
-          4 Tank Package: $200
+          4 Tank Package: $220
         </p>
         <p className="my-1 text-sm md:text-base xl:text-lg">
           <Link to="/shark-dive-punta-cana" className="no-underline">

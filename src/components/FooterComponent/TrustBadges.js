@@ -22,7 +22,7 @@ const TrustBadges = () => {
         frameborder="0"
         width="100%"
         height="360"
-        title='google reviews'
+        title="google reviews"
       ></iframe>
     </div>
   )

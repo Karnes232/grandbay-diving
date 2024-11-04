@@ -23,7 +23,6 @@ const FishingOverview = ({ course }) => {
           Duration: 4 Hours
         </p>
         <p className="my-1 text-center text-sm xl:text-base">Price: $700</p>
-
       </div>
       <div className="flex justify-center w-[200px] h-[35px] mx-auto">
         <Link to="/contact" className="no-underline w-[200px] h-[35px]">

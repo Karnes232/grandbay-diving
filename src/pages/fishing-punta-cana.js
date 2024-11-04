@@ -54,10 +54,10 @@ const Fishing = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row lg:mx-auto max-w-6xl mb-10">
-        <TextComponent
-              // title={course.title2}
-              paragraph="For a more private and personalized experience, we offer exclusive charters. Choose a 4-hour private charter for $700, a 5-hour for $800, a 6-hour charter for $1,085, or extend your adventure with an 8-hour trip for $1,365. These private charters give you the flexibility to tailor the day to your preferences, ensuring a memorable and relaxing experience on the water."
-            />
+          <TextComponent
+            // title={course.title2}
+            paragraph="For a more private and personalized experience, we offer exclusive charters. Choose a 4-hour private charter for $700, a 5-hour for $800, a 6-hour charter for $1,085, or extend your adventure with an 8-hour trip for $1,365. These private charters give you the flexibility to tailor the day to your preferences, ensuring a memorable and relaxing experience on the water."
+          />
         </div>
         <Suspense fallback={<div>Loading...</div>}>
           <BackgroundCarousel course={fishing} className="discover-carousel" />
