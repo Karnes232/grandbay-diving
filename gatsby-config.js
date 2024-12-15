@@ -15,8 +15,8 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-robots-txt",
-    "gatsby-plugin-offline",
-    // "gatsby-plugin-remove-serviceworker",
+    // "gatsby-plugin-offline",
+    "gatsby-plugin-remove-serviceworker",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
